@@ -113,7 +113,7 @@ def _run_trial(name: str, linear_x: float, angular_z: float, duration: float) ->
         "export WEEK01_EVIDENCE_DIR=/workspace/week01_ros_foundations/runtime/evidence && "
         "gz service -s /world/default/set_pose/blocking --reqtype gz.msgs.Pose "
         "--reptype gz.msgs.Boolean --timeout 5000 "
-        "--req 'name: \"burger\", position: {x: -2.0, y: -0.5, z: 0.01}, orientation: {w: 1.0}' && "
+        "--req 'name: \"burger\", position: {x: -2.0, y: -0.5, z: 0.01}, orientation: {w: 1.0}' >/dev/null 2>&1 && "
         "sleep 1 && "
         "ros2 run course_lab_tools timed_twist --ros-args "
         f"-p trial_type:={name} -p linear_x:={linear_x:.4f} "
@@ -129,7 +129,7 @@ def _run_trial(name: str, linear_x: float, angular_z: float, duration: float) ->
             text=True,
             start_new_session=True,
         )
-        stdout, stderr = process.communicate(timeout=duration + 20.0)
+        stdout, stderr = process.communicate(timeout=duration + 45.0)
     except subprocess.TimeoutExpired:
         if process is not None:
             try:
@@ -172,11 +172,11 @@ def _reset_robot() -> tuple[bool, str]:
         "source /opt/ros/jazzy/setup.bash && "
         "source /workspace/week01_ros_foundations/ros2_ws/install/setup.bash && "
         "export ROS_DOMAIN_ID=24 && "
-        "ros2 topic pub --once /student_cmd_vel geometry_msgs/msg/Twist "
-        "'{linear: {x: 0.0}, angular: {z: 0.0}}' >/dev/null && "
+        "timeout 10 ros2 topic pub --once /student_cmd_vel geometry_msgs/msg/Twist "
+        "'{linear: {x: 0.0}, angular: {z: 0.0}}' >/dev/null 2>&1 || true && "
         "gz service -s /world/default/set_pose/blocking --reqtype gz.msgs.Pose "
         "--reptype gz.msgs.Boolean --timeout 5000 "
-        "--req 'name: \"burger\", position: {x: -2.0, y: -0.5, z: 0.01}, orientation: {w: 1.0}'"
+        "--req 'name: \"burger\", position: {x: -2.0, y: -0.5, z: 0.01}, orientation: {w: 1.0}' >/dev/null 2>&1"
     )
     try:
         result = subprocess.run(
@@ -184,7 +184,7 @@ def _reset_robot() -> tuple[bool, str]:
             cwd=ROOT,
             capture_output=True,
             text=True,
-            timeout=15.0,
+            timeout=30.0,
             check=False,
         )
     except (OSError, subprocess.TimeoutExpired) as error:

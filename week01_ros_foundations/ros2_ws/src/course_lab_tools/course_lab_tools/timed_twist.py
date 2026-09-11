@@ -11,6 +11,7 @@ import rclpy
 from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from rclpy.node import Node
+from rclpy.qos import qos_profile_sensor_data
 
 
 def evidence_directory() -> Path:
@@ -52,7 +53,7 @@ class TimedTwist(Node):
         if abs(self.linear_x) > 0.22 or abs(self.angular_z) > 0.8:
             raise ValueError("Requested command exceeds course limits")
         self.publisher = self.create_publisher(Twist, "/student_cmd_vel", 10)
-        self.create_subscription(Odometry, "/odom", self.on_odom, 10)
+        self.create_subscription(Odometry, "/odom", self.on_odom, qos_profile_sensor_data)
         self.timer = self.create_timer(0.05, self.tick)
         self.latest_pose = None
         self.start_pose = None
