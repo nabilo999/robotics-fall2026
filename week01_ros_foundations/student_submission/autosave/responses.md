@@ -5,6 +5,32 @@
 - Name: Nabil Said
 - Email: NABIL.SAID54@login.cuny.edu
 
+## final.architecture_evidence
+
+I called my node reactive because it responds directly to each incoming /scan message. A hybrid system would need an additional layer, such as planning or a state machine, combined with the reactive layer.  
+
+## final.course_reflection
+
+1. This activity helped me understand what robotics is about. I saw how robotics combines programming, calculations, sensors, vision, and decision-making to create one working system.
+3. Technical and computing work should always consider human/ethical needs. Robots and software goal should be designed to help people, so they should be safe, useful, accessible, and built with real human needs in mind.                                                                         
+4. What stood out most was the ROS 2 development environment. I was interesting seeing how different nodes, simulators, and visualization tools each play a role in the development process.
+
+## final.hardware_next
+
+I would test how fast commands are running and I would check for edge cases with missing info or conflicting data
+
+## final.middleware_debugging
+
+I could check whether the behavior node is subscribed to /scan, or whether the command guard is receiving the command  
+
+## final.system_synthesis
+
+Robotics software is difficult because many different systems have to work together all at the same time. The robot has to take in many different inputs all at the same time process them and execute them in a way that doesn't conflict with other executions. It also depends on the health of sensors, communication middleware, simulation physics, safety checks, timing, and visualization. A problem in any one of these parts can affect the entire system. For example, the robot may have correct decision logic but still behave unsafely if sensor data is invalid, delayed, or missing. For this activity, I implemented a reactive architecture. My front_distance() function processes the LiDAR readings and finds the nearest valid measurement in front of the robot. My decide_velocity() function then chooses either a safe forward speed or zero. The advantage of this architecture is that it is simple,  and easy to test, while the trade-off is that the robot only reacts to its current sensor data. It does not plan ahead, remember previous situations, or choose the best long-term route. ROS 2 middleware connected different components. Gazebo simulated the TurtleBot3 and published sensor data through /scan. The obstacle_guard node subscribed to /scan, used functions, and published velocity commands on /student_cmd_vel. The command guard received those proposed commands and restricted unsafe motion before commands reached the robot, while RViz displayed information from the running ROS graph. For timing and invalid data, LiDAR readings could contain NaN, infinity, zero, or negative values, so those readings could be ignored. If no valid front measurement existed, the robot stopped. The watchdog also stopped the robot when scans stopped arriving for too long. This is safer than assuming that missing data means the path is clear. The command guard is the layer that restricted unsafe motion. Even if the an invalid or excessive speed is proposed, the guard can reject that command. This makes the overall robotic system safer.
+
+## final.timing_evidence
+
+The sensor-failure result that affected my understanding was when the readings were NaN, infinity, or unusable, the robot stopped instead of assuming the path was clear.  
+
 ## mission_1.command_path_explanation
 
 A proposed command travels on /student_cmd_vel. The guard checks the proposed movement and then publishes the approved command on /cmd_vel.
@@ -33,7 +59,7 @@ In the Curve trial, the estimated traveled path measures the distance the robot 
 
 ## mission_2.modified_settings
 
-{'angular_z': 0.6, 'duration': 4.0, 'linear_x': 0.12}
+{'linear_x': 0.12, 'angular_z': 0.6, 'duration': 4.0}
 
 ## mission_2.motion_comparison
 
@@ -53,14 +79,27 @@ The command guard checks every proposed driving command and prevents invalid or 
 The final zero command stops the robot at the end of the trial by setting the forward speed and turning speed to zero.  
 The timeout is needed if the program crashes or stops communicating while the robot is moving. It automatically sends a stop command after 0.5 seconds without receiving a new command.  
 
+## mission_3.data_to_command
+
+First, front_distance() checks each LiDAR reading and calculates its angle based on readings that are within the front viewing area, are finite, and are greater than zero. It then returns the closest valid reading.
+Second, decide_velocity() uses that distance. If the distance is missing or is less than or equal to the stopping distance, it returns 0.0 which tells the robot to stop. If the path is clear, it returns the forward speed, limited to a safe maximum of 0.18 m/s.
+
+## mission_3.missing_data_safety
+
+The robot stops when there is no valid front measurement because missing sensor data should be treated as unsafe. If the robot treated missing data as a clear path, it could move forward and cause an accident.
+
+## mission_3.system_layers
+
+The robot stops when there is no valid front measurement because missing sensor data should be treated as unsafe. If the robot treated missing data as a clear path, it could move forward and cause an accident.
+
 ## part_1.activity
 
 {'sensor': {'normal': True, 'changed': True}, 'timing': {'normal': True, 'changed': True}, 'hardware': {'normal': True, 'changed': True}}
 
 ## part_2.activity
 
-{'behavior': {'changed': True, 'normal': True}, 'deliberative': {'changed': True, 'normal': True}, 'hybrid': {'changed': True, 'normal': True}, 'reactive': {'changed': True, 'normal': True}, 'safety': {'changed': True, 'normal': True}}
+{'reactive': {'normal': True, 'changed': True}, 'behavior': {'normal': True, 'changed': True}, 'deliberative': {'normal': True, 'changed': True}, 'hybrid': {'normal': True, 'changed': True}, 'safety': {'normal': True, 'changed': True}}
 
 ## part_3.activity
 
-{'communication': {'service': True, 'topic': True}, 'failure': {'healthy': True, 'sensor': True, 'type': True, 'visualization': True}, 'inspection': {'broken': True, 'echo': True, 'node_info': True, 'nodes': True, 'services': True, 'topic_info': True, 'topics': True}, 'middleware': {'multiple': True, 'single': True}}
+{'middleware': {'single': True, 'multiple': True}, 'communication': {'topic': True, 'service': True}, 'failure': {'healthy': True, 'sensor': True, 'type': True, 'visualization': True}, 'inspection': {'nodes': True, 'node_info': True, 'topics': True, 'topic_info': True, 'echo': True, 'services': True, 'broken': True}}
