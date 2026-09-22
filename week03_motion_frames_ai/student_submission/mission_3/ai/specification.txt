@@ -1,0 +1,1 @@
+I will drive forward 0.40 m, stop, rotate left 90°, stop, then drive forward another 0.40 m and stop. I will use 0.20 m/s for driving and 0.50 rad/s for turning. Success means ending near (0.40, 0.40) m with a heading of 1.57 rad (90°).

@@ -24,7 +24,7 @@ In virtual desktop terminal A:
 
 ```bash
 cd /workspace/week03_motion_frames_ai
-bash scripts/course_preflight.sh --setup
+bash scripts/course_preflight.sh --setupa
 bash scripts/launch_lab.sh
 ```
 

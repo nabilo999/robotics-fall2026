@@ -59,7 +59,7 @@ In the Curve trial, the estimated traveled path measures the distance the robot 
 
 ## mission_2.modified_settings
 
-{'linear_x': 0.12, 'angular_z': 0.6, 'duration': 4.0}
+{'angular_z': 0.6, 'duration': 4.0, 'linear_x': 0.12}
 
 ## mission_2.motion_comparison
 
@@ -98,8 +98,8 @@ The robot stops when there is no valid front measurement because missing sensor 
 
 ## part_2.activity
 
-{'reactive': {'normal': True, 'changed': True}, 'behavior': {'normal': True, 'changed': True}, 'deliberative': {'normal': True, 'changed': True}, 'hybrid': {'normal': True, 'changed': True}, 'safety': {'normal': True, 'changed': True}}
+{'behavior': {'changed': True, 'normal': True}, 'deliberative': {'changed': True, 'normal': True}, 'hybrid': {'changed': True, 'normal': True}, 'reactive': {'changed': True, 'normal': True}, 'safety': {'changed': True, 'normal': True}}
 
 ## part_3.activity
 
-{'middleware': {'single': True, 'multiple': True}, 'communication': {'topic': True, 'service': True}, 'failure': {'healthy': True, 'sensor': True, 'type': True, 'visualization': True}, 'inspection': {'nodes': True, 'node_info': True, 'topics': True, 'topic_info': True, 'echo': True, 'services': True, 'broken': True}}
+{'communication': {'service': True, 'topic': True}, 'failure': {'healthy': True, 'sensor': True, 'type': True, 'visualization': True}, 'inspection': {'broken': True, 'echo': True, 'node_info': True, 'nodes': True, 'services': True, 'topic_info': True, 'topics': True}, 'middleware': {'multiple': True, 'single': True}}
