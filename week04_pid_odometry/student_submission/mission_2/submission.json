@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T12:40:40",
+  "mission_id": "mission_2",
+  "student": {
+    "name": "",
+    "student_id": "",
+    "section": ""
+  },
+  "explanations": {
+    "calibration": "I adjusted the wheel radius and track width while running the calibration movements, comparing the robot\u2019s estimated position to its actual position. I tuned the values until the odometry closely matched the robot\u2019s movement.",
+    "drift": "Odometry can still drift because of wheel slippage, uneven surfaces, small measurement errors, and differences in wheel size or encoder readings. These small errors accumulate over time."
+  },
+  "params": {
+    "forwardInPerTick": 0.05,
+    "strafeInPerTick": 0.05
+  },
+  "metrics": {
+    "max_error_in": 0.0,
+    "final_error_in": 0.0,
+    "passed": true
+  },
+  "result": {
+    "passed": true,
+    "maxError": 0,
+    "finalError": 0,
+    "params": {
+      "forwardInPerTick": 0.05,
+      "strafeInPerTick": 0.05
+    }
+  },
+  "csv_files": {},
+  "activity_gifs": [
+    "latest_odometry_test.gif"
+  ]
+}

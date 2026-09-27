@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T12:04:49",
+  "mission_id": "mission_1",
+  "student": {
+    "name": "",
+    "student_id": "",
+    "section": ""
+  },
+  "explanations": {
+    "joint_gains": "I increased Kp on both joints until the arm moved toward the target quickly enough. Then I increased Kd to reduce overshooting and shaking. Finally, I slightly increased Ki to help correct the remaining error and make the arm settle closer to the target.  ",
+    "gravity_comp": "Gravity compensation added another force we had to account for and especially in the link between the shoulder and the arm."
+  },
+  "params": {
+    "activity": "two_link_arm_pid_tuning",
+    "kp1": 0,
+    "ki1": 0,
+    "kd1": 1.3,
+    "kp2": 16,
+    "ki2": 4,
+    "kd2": 6,
+    "gravityCompensation": false
+  },
+  "metrics": {
+    "completed": true,
+    "posesHeld": 3,
+    "posesRequired": 3
+  },
+  "checkin": {
+    "note": "I increased the Kp on both the shoulder and elbow until the arm moved toward the target quickly enough. The arm was then overshooting and shaking, so I increased Kd on both joints to help stabilize the movement. Finally, the arm was stopping slightly away from the target, so I increased Ki a little on both controllers to reduce the remaining error and help the arm settle.",
+    "choice": "",
+    "complete": true
+  },
+  "csv_files": {},
+  "activity_gifs": [
+    "latest_arm_tuning.gif"
+  ]
+}
