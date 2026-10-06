@@ -1,0 +1,1121 @@
+context,scenario,time_s,truth_m,sensor_a_m,sensor_b_m,filtered_a_m,filtered_b_m,estimate_m,decision,reason,false_safe,unnecessary_stop,dangerous_command
+Warehouse,clearly_safe,0.0,2.5,2.41,2.58,2.41,2.58,2.5375,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.05,2.5,2.59,,2.5,2.58,2.56,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.1,2.5,2.5,,2.5,2.58,2.56,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.15000000000000002,2.5,2.44,2.44,2.5,2.531,2.52325,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.2,2.5,2.42,,2.44,2.531,2.50825,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.25,2.5,2.46,,2.44,2.531,2.50825,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.30000000000000004,2.5,2.49,2.62,2.46,2.56215,2.5366125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.35000000000000003,2.5,2.56,,2.49,2.56215,2.5441124999999998,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.4,2.5,2.47,,2.49,2.56215,2.5441124999999998,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.45,2.5,2.49,2.48,2.49,2.5333975,2.522548125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.5,2.5,2.61,,2.49,2.5333975,2.522548125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.55,2.5,2.66,,2.61,2.5333975,2.552548125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.6000000000000001,2.5,2.44,2.44,2.61,2.500708375,2.5280312812499997,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.65,2.5,2.49,,2.49,2.500708375,2.49803128125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.7000000000000001,2.5,2.64,,2.49,2.500708375,2.49803128125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.75,2.5,2.65,2.54,2.64,2.51446044375,2.5458453328125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.8,2.5,2.5100000000000002,,2.64,2.51446044375,2.5458453328125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.8500000000000001,2.5,2.47,,2.5100000000000002,2.51446044375,2.5133453328125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.9,2.5,2.41,2.46,2.47,2.4953992884375,2.489049466328125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,0.9500000000000001,2.5,3.35,,2.47,2.4953992884375,2.489049466328125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.0,2.5,2.4,,2.41,2.4953992884375,2.474049466328125,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.05,2.5,,2.5,2.41,2.497009537484375,2.475257153113281,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.1,2.5,2.58,,2.58,2.497009537484375,2.517757153113281,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.1500000000000001,2.5,2.45,,2.45,2.497009537484375,2.485257153113281,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.2000000000000002,2.5,2.35,2.62,2.45,2.5400561993648436,2.5175421495236328,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.25,2.5,2.64,,2.45,2.5400561993648436,2.5175421495236328,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.3,2.5,2.68,,2.64,2.5400561993648436,2.5650421495236326,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.35,2.5,2.67,2.52,2.67,2.5330365295871484,2.5672773971903613,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.4000000000000001,2.5,2.74,,2.68,2.5330365295871484,2.5697773971903612,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.4500000000000002,2.5,2.5500000000000003,,2.67,2.5330365295871484,2.5672773971903613,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.5,2.5,2.6,2.58,2.6,2.5494737442316464,2.562105308173735,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.55,2.5,2.58,,2.58,2.5494737442316464,2.557105308173735,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.6,2.5,2.7,,2.6,2.5494737442316464,2.562105308173735,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.6500000000000001,2.5,2.48,2.6,2.58,2.56715793375057,2.5703684503129276,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.7000000000000002,2.5,2.54,,2.54,2.56715793375057,2.560368450312928,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.75,2.5,2.71,,2.54,2.56715793375057,2.560368450312928,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.8,2.5,2.37,2.56,2.54,2.5646526569378705,2.558489492703403,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.85,2.5,3.14,,2.71,2.5646526569378705,2.6009894927034027,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.9000000000000001,2.5,2.57,,2.57,2.5646526569378705,2.565989492703403,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,1.9500000000000002,2.5,2.41,2.58,2.57,2.5700242270096156,2.5700181702572116,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.0,2.5,2.68,,2.57,2.5700242270096156,2.5700181702572116,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.0500000000000003,2.5,2.46,,2.46,2.5700242270096156,2.5425181702572117,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.1,2.5,2.5300000000000002,2.68,2.5300000000000002,2.6085157475562504,2.588886810667188,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.15,2.5,2.5300000000000002,,2.5300000000000002,2.6085157475562504,2.588886810667188,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.2,2.5,2.5500000000000003,,2.5300000000000002,2.6085157475562504,2.588886810667188,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.25,2.5,2.43,2.54,2.5300000000000002,2.5845352359115625,2.5709014269336716,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.3000000000000003,2.5,2.68,,2.5500000000000003,2.5845352359115625,2.575901426933672,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.35,2.5,2.48,,2.48,2.5845352359115625,2.558401426933672,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.4000000000000004,2.5,2.57,2.58,2.57,2.582947903342516,2.579710927506887,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.45,2.5,2.42,,2.48,2.582947903342516,2.557210927506887,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.5,2.5,2.49,,2.49,2.582947903342516,2.559710927506887,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.5500000000000003,2.5,2.5300000000000002,2.5,2.49,2.553916137172635,2.5379371028794764,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.6,2.5,2.77,,2.5300000000000002,2.553916137172635,2.5479371028794766,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.6500000000000004,2.5,2.46,,2.5300000000000002,2.553916137172635,2.5479371028794766,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.7,2.5,2.36,2.54,2.46,2.549045489162213,2.52678411687166,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.75,2.5,2.52,,2.46,2.549045489162213,2.52678411687166,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.8000000000000003,2.5,2.59,,2.52,2.549045489162213,2.5417841168716597,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.85,2.5,2.59,2.48,2.59,2.5248795679554386,2.541159675966579,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.9000000000000004,2.5,2.67,,2.59,2.5248795679554386,2.541159675966579,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,2.95,2.5,2.57,,2.59,2.5248795679554386,2.541159675966579,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.0,2.5,,2.52,2.59,2.523171719171035,2.5398787893782764,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.0500000000000003,2.5,2.56,,2.57,2.523171719171035,2.5348787893782765,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.1,2.5,2.5100000000000002,,2.56,2.523171719171035,2.5323787893782765,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.1500000000000004,2.5,2.49,2.48,2.5100000000000002,2.508061617461173,2.5085462130958796,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.2,2.5,2.58,,2.5100000000000002,2.508061617461173,2.5085462130958796,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.25,2.5,2.41,,2.49,2.508061617461173,2.5035462130958797,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.3000000000000003,2.5,2.61,2.58,2.58,2.5332400513497624,2.5449300385123217,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.35,2.5,2.87,,2.61,2.5332400513497624,2.5524300385123215,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.4000000000000004,2.5,2.54,,2.61,2.5332400513497624,2.5524300385123215,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.45,2.5,2.29,2.48,2.54,2.5146060333773455,2.5209545250330088,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.5,2.5,,,2.54,2.5146060333773455,2.5209545250330088,STOP,Both current readings missing,False,True,False
+Warehouse,clearly_safe,3.5500000000000003,2.5,2.2800000000000002,,2.29,2.5146060333773455,2.4584545250330088,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.6,2.5,2.39,2.44,2.29,2.4884939216952744,2.4388704412714555,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.6500000000000004,2.5,2.6,,2.39,2.4884939216952744,2.463870441271456,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.7,2.5,2.62,,2.6,2.4884939216952744,2.5163704412714556,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.75,2.5,2.62,,2.62,2.4884939216952744,2.521370441271456,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.8000000000000003,2.5,2.48,,2.62,2.4884939216952744,2.521370441271456,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.85,2.5,2.46,,2.48,2.4884939216952744,2.486370441271456,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.9000000000000004,2.5,2.5300000000000002,2.46,2.48,2.4785210491019285,2.4788907868264465,MOVE,Outside caution band,False,False,False
+Warehouse,clearly_safe,3.95,2.5,1.57,,2.46,2.4785210491019285,2.4738907868264466,MOVE,Outside caution band,False,False,False
+Warehouse,stationary_danger,0.0,0.55,0.55,0.68,0.55,0.68,0.6475,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,stationary_danger,0.05,0.55,0.66,,0.605,0.68,0.66125,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,stationary_danger,0.1,0.55,0.5700000000000001,,0.5700000000000001,0.68,0.6525000000000001,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,stationary_danger,0.15000000000000002,0.55,0.59,0.58,0.59,0.645,0.63125,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,stationary_danger,0.2,0.55,0.64,,0.59,0.645,0.63125,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,stationary_danger,0.25,0.55,0.63,,0.63,0.645,0.64125,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,stationary_danger,0.30000000000000004,0.55,0.61,0.52,0.63,0.6012500000000001,0.6084375000000001,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,stationary_danger,0.35000000000000003,0.55,0.64,,0.63,0.6012500000000001,0.6084375000000001,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,stationary_danger,0.4,0.55,0.55,,0.61,0.6012500000000001,0.6034375000000001,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,stationary_danger,0.45,0.55,0.74,0.66,0.64,0.6218125000000001,0.626359375,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,stationary_danger,0.5,0.55,0.62,,0.62,0.6218125000000001,0.621359375,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,stationary_danger,0.55,0.55,0.63,,0.63,0.6218125000000001,0.6238593750000001,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,stationary_danger,0.6000000000000001,0.55,0.47000000000000003,0.6,0.62,0.614178125,0.61563359375,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,stationary_danger,0.65,0.55,0.48,,0.48,0.614178125,0.58063359375,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,stationary_danger,0.7000000000000001,0.55,,,0.48,0.614178125,0.58063359375,STOP,Both current readings missing,False,False,False
+Warehouse,stationary_danger,0.75,0.55,0.62,0.58,0.48,0.60221578125,0.5716618359375,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,stationary_danger,0.8,0.55,0.59,,0.59,0.60221578125,0.5991618359374999,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,stationary_danger,0.8500000000000001,0.55,0.56,,0.59,0.60221578125,0.5991618359374999,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,stationary_danger,0.9,0.55,,0.56,0.59,0.5874402578125,0.588080193359375,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,stationary_danger,0.9500000000000001,0.55,0.5,,0.56,0.5874402578125,0.580580193359375,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,stationary_danger,1.0,0.55,0.51,,0.51,0.5874402578125,0.568080193359375,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,stationary_danger,1.05,0.55,0.39,0.58,0.5,0.584836167578125,0.5636271256835937,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,stationary_danger,1.1,0.55,0.75,,0.51,0.584836167578125,0.5661271256835938,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,stationary_danger,1.1500000000000001,0.55,0.45,,0.45,0.584836167578125,0.5511271256835938,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,stationary_danger,1.2000000000000002,0.55,0.47000000000000003,0.7000000000000001,0.47000000000000003,0.6251435089257813,0.586357631694336,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,stationary_danger,1.25,0.55,0.8300000000000001,,0.47000000000000003,0.6251435089257813,0.586357631694336,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,stationary_danger,1.3,0.55,0.61,,0.61,0.6251435089257813,0.621357631694336,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,stationary_danger,1.35,0.55,0.34,0.54,0.61,0.5953432808017578,0.5990074606013184,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,stationary_danger,1.4000000000000001,0.55,0.74,,0.61,0.5953432808017578,0.5990074606013184,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,stationary_danger,1.4500000000000002,0.55,,,0.61,0.5953432808017578,0.5990074606013184,STOP,Both current readings missing,False,False,False
+Warehouse,stationary_danger,1.5,0.55,0.67,0.46,0.67,0.5479731325211425,0.578479849390857,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,stationary_danger,1.55,0.55,0.51,,0.67,0.5479731325211425,0.578479849390857,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,stationary_danger,1.6,0.55,0.44,,0.51,0.5479731325211425,0.5384798493908569,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,stationary_danger,1.6500000000000001,0.55,0.73,,0.51,0.5479731325211425,0.5384798493908569,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,stationary_danger,1.7000000000000002,0.55,,,0.51,0.5479731325211425,0.5384798493908569,STOP,Both current readings missing,False,False,False
+Warehouse,stationary_danger,1.75,0.55,0.79,,0.73,0.5479731325211425,0.5934798493908569,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,stationary_danger,1.8,0.55,0.55,0.68,0.73,0.5941825361387427,0.628136902104057,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,stationary_danger,1.85,0.55,,,0.73,0.5941825361387427,0.628136902104057,STOP,Both current readings missing,False,False,False
+Warehouse,stationary_danger,1.9000000000000001,0.55,0.45,,0.55,0.5941825361387427,0.5831369021040571,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,stationary_danger,1.9500000000000002,0.55,0.5700000000000001,0.64,0.55,0.6102186484901828,0.5951639863676371,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,stationary_danger,2.0,0.55,0.52,,0.52,0.6102186484901828,0.5876639863676372,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,stationary_danger,2.0500000000000003,0.55,0.54,,0.54,0.6102186484901828,0.5926639863676371,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,stationary_danger,2.1,0.55,0.49,0.56,0.52,0.5926421215186188,0.5744815911389641,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,stationary_danger,2.15,0.55,0.52,,0.52,0.5926421215186188,0.5744815911389641,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,stationary_danger,2.2,0.55,0.67,,0.52,0.5926421215186188,0.5744815911389641,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,stationary_danger,2.25,0.55,0.49,0.5,0.52,0.5602173789871022,0.5501630342403266,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,stationary_danger,2.3000000000000003,0.55,0.55,,0.55,0.5602173789871022,0.5576630342403266,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,stationary_danger,2.35,0.55,1.21,,0.55,0.5602173789871022,0.5576630342403266,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,stationary_danger,2.4000000000000004,0.55,0.52,0.58,0.55,0.5671412963416165,0.5628559722562123,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,stationary_danger,2.45,0.55,0.44,,0.52,0.5671412963416165,0.5553559722562124,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,stationary_danger,2.5,0.55,0.62,,0.52,0.5671412963416165,0.5553559722562124,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,stationary_danger,2.5500000000000003,0.55,0.68,0.54,0.62,0.5576418426220507,0.5732313819665381,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,stationary_danger,2.6,0.55,0.51,,0.62,0.5576418426220507,0.5732313819665381,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Warehouse,stationary_danger,2.6500000000000004,0.55,0.49,,0.51,0.5576418426220507,0.5457313819665381,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Warehouse,stationary_danger,2.7,0.55,,0.52,0.51,0.5444671977043329,0.5358503982782497,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Warehouse,stationary_danger,2.75,0.55,0.47000000000000003,,0.49,0.5444671977043329,0.5308503982782498,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Warehouse,stationary_danger,2.8000000000000003,0.55,0.76,,0.49,0.5444671977043329,0.5308503982782498,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Warehouse,stationary_danger,2.85,0.55,0.54,0.66,0.54,0.5849036785078163,0.5736777588808623,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Warehouse,stationary_danger,2.9000000000000004,0.55,0.41000000000000003,,0.54,0.5849036785078163,0.5736777588808623,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Warehouse,stationary_danger,2.95,0.55,0.56,,0.54,0.5849036785078163,0.5736777588808623,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Warehouse,stationary_danger,3.0,0.55,0.56,0.58,0.56,0.5831873910300807,0.5773905432725606,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Warehouse,stationary_danger,3.0500000000000003,0.55,0.4,,0.56,0.5831873910300807,0.5773905432725606,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Warehouse,stationary_danger,3.1,0.55,0.59,,0.56,0.5831873910300807,0.5773905432725606,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Warehouse,stationary_danger,3.1500000000000004,0.55,0.39,,0.4,0.5831873910300807,0.5373905432725605,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Warehouse,stationary_danger,3.2,0.55,0.49,,0.49,0.5831873910300807,0.5598905432725605,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Warehouse,stationary_danger,3.25,0.55,0.54,,0.49,0.5831873910300807,0.5598905432725605,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Warehouse,stationary_danger,3.3000000000000003,0.55,0.6900000000000001,0.56,0.54,0.5750718041695524,0.5663038531271642,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Warehouse,stationary_danger,3.35,0.55,0.5700000000000001,,0.5700000000000001,0.5750718041695524,0.5738038531271643,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Warehouse,stationary_danger,3.4000000000000004,0.55,0.6,,0.6,0.5750718041695524,0.5813038531271643,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Warehouse,stationary_danger,3.45,0.55,0.53,0.62,0.5700000000000001,0.5907966727102091,0.5855975045326569,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Warehouse,stationary_danger,3.5,0.55,0.56,,0.56,0.5907966727102091,0.5830975045326569,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Warehouse,stationary_danger,3.5500000000000003,0.55,0.56,,0.56,0.5907966727102091,0.5830975045326569,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Warehouse,stationary_danger,3.6,0.55,0.16,0.54,0.56,0.5730178372616359,0.569763377946227,STOP,At/below stop boundary; confirmation count 35,False,False,False
+Warehouse,stationary_danger,3.6500000000000004,0.55,0.52,,0.52,0.5730178372616359,0.559763377946227,STOP,At/below stop boundary; confirmation count 36,False,False,False
+Warehouse,stationary_danger,3.7,0.55,0.8200000000000001,,0.52,0.5730178372616359,0.559763377946227,STOP,At/below stop boundary; confirmation count 37,False,False,False
+Warehouse,stationary_danger,3.75,0.55,0.48,0.64,0.52,0.5964615942200633,0.5773461956650474,STOP,At/below stop boundary; confirmation count 38,False,False,False
+Warehouse,stationary_danger,3.8000000000000003,0.55,0.35000000000000003,,0.48,0.5964615942200633,0.5673461956650474,STOP,At/below stop boundary; confirmation count 39,False,False,False
+Warehouse,stationary_danger,3.85,0.55,0.6900000000000001,,0.48,0.5964615942200633,0.5673461956650474,STOP,At/below stop boundary; confirmation count 40,False,False,False
+Warehouse,stationary_danger,3.9000000000000004,0.55,0.28,0.56,0.35000000000000003,0.5837000362430411,0.5252750271822808,STOP,At/below stop boundary; confirmation count 41,False,False,False
+Warehouse,stationary_danger,3.95,0.55,0.74,,0.6900000000000001,0.5837000362430411,0.6102750271822809,STOP,At/below stop boundary; confirmation count 42,False,False,False
+Warehouse,near_threshold,0.0,0.87,0.73,0.88,0.73,0.88,0.8425,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,near_threshold,0.05,0.88,1.45,,1.0899999999999999,0.88,0.9325,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,near_threshold,0.1,0.89,0.16,,0.73,0.88,0.8425,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,near_threshold,0.15000000000000002,0.9,1.12,0.9,1.12,0.887,0.94525,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,near_threshold,0.2,0.91,1.09,,1.09,0.887,0.9377500000000001,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,near_threshold,0.25,0.92,0.8200000000000001,,1.09,0.887,0.9377500000000001,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,near_threshold,0.30000000000000004,0.93,1.11,0.92,1.09,0.89855,0.9464124999999999,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,near_threshold,0.35000000000000003,0.9400000000000001,0.9500000000000001,,0.9500000000000001,0.89855,0.9114125,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,near_threshold,0.4,0.9500000000000001,1.1,,1.1,0.89855,0.9489124999999999,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,near_threshold,0.45,0.9600000000000001,1.05,0.9,1.05,0.8990575000000001,0.9367931250000001,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,near_threshold,0.5,0.87,0.72,,1.05,0.8990575000000001,0.9367931250000001,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,near_threshold,0.55,0.88,0.98,,0.98,0.8990575000000001,0.919293125,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,near_threshold,0.6000000000000001,0.89,0.98,0.86,0.98,0.8853873750000001,0.9090405312500001,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,near_threshold,0.65,0.9,0.93,,0.98,0.8853873750000001,0.9090405312500001,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,near_threshold,0.7000000000000001,0.91,0.85,,0.93,0.8853873750000001,0.8965405312500001,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Warehouse,near_threshold,0.75,0.92,1.04,1.06,0.93,0.9465017937500001,0.9423763453125001,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Warehouse,near_threshold,0.8,0.93,0.9400000000000001,,0.9400000000000001,0.9465017937500001,0.9448763453125001,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Warehouse,near_threshold,0.8500000000000001,0.9400000000000001,0.78,,0.9400000000000001,0.9465017937500001,0.9448763453125001,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Warehouse,near_threshold,0.9,0.9500000000000001,1.08,1.08,0.9400000000000001,0.9932261659375001,0.9799196244531251,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Warehouse,near_threshold,0.9500000000000001,0.9600000000000001,0.9,,0.9,0.9932261659375001,0.9699196244531251,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Warehouse,near_threshold,1.0,0.87,0.96,,0.96,0.9932261659375001,0.9849196244531251,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Warehouse,near_threshold,1.05,0.88,0.68,0.92,0.9,0.9675970078593752,0.9506977558945314,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Warehouse,near_threshold,1.1,0.89,1.04,,0.96,0.9675970078593752,0.9656977558945314,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Warehouse,near_threshold,1.1500000000000001,0.9,1.1400000000000001,,1.04,0.9675970078593752,0.9856977558945315,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Warehouse,near_threshold,1.2000000000000002,0.91,0.8,,1.04,0.9675970078593752,0.9856977558945315,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Warehouse,near_threshold,1.25,0.92,0.86,,0.86,0.9675970078593752,0.9406977558945314,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Warehouse,near_threshold,1.3,0.93,0.96,,0.86,0.9675970078593752,0.9406977558945314,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Warehouse,near_threshold,1.35,0.9400000000000001,,1.04,0.86,0.9929380551085939,0.9597035413314454,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Warehouse,near_threshold,1.4000000000000001,0.9500000000000001,1.25,,0.96,0.9929380551085939,0.9847035413314454,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Warehouse,near_threshold,1.4500000000000002,0.9600000000000001,0.88,,0.96,0.9929380551085939,0.9847035413314454,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Warehouse,near_threshold,1.5,0.87,0.86,0.88,0.88,0.953409735820586,0.9350573018654394,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Warehouse,near_threshold,1.55,0.88,0.8,,0.86,0.953409735820586,0.9300573018654394,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Warehouse,near_threshold,1.6,0.89,0.4,,0.8,0.953409735820586,0.9150573018654395,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Warehouse,near_threshold,1.6500000000000001,0.9,0.8300000000000001,0.9,0.8,0.9347163282833808,0.9010372462125356,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Warehouse,near_threshold,1.7000000000000002,0.91,0.9400000000000001,,0.8300000000000001,0.9347163282833808,0.9085372462125356,STOP,At/below stop boundary; confirmation count 35,False,False,False
+Warehouse,near_threshold,1.75,0.92,0.99,,0.9400000000000001,0.9347163282833808,0.9360372462125356,STOP,At/below stop boundary; confirmation count 36,False,False,False
+Warehouse,near_threshold,1.8,0.93,0.9500000000000001,1.0,0.9500000000000001,0.9575656133841975,0.9556742100381482,STOP,At/below stop boundary; confirmation count 37,False,False,False
+Warehouse,near_threshold,1.85,0.9400000000000001,1.17,,0.99,0.9575656133841975,0.9656742100381481,STOP,At/below stop boundary; confirmation count 38,False,False,False
+Warehouse,near_threshold,1.9000000000000001,0.9500000000000001,0.9,,0.9500000000000001,0.9575656133841975,0.9556742100381482,STOP,At/below stop boundary; confirmation count 39,False,False,False
+Warehouse,near_threshold,1.9500000000000002,0.9600000000000001,0.8200000000000001,1.08,0.9,1.0004176486997283,0.9753132365247962,STOP,At/below stop boundary; confirmation count 40,False,False,False
+Warehouse,near_threshold,2.0,0.87,0.7000000000000001,,0.8200000000000001,1.0004176486997283,0.9553132365247963,STOP,At/below stop boundary; confirmation count 41,False,False,False
+Warehouse,near_threshold,2.0500000000000003,0.88,0.9400000000000001,,0.8200000000000001,1.0004176486997283,0.9553132365247963,STOP,At/below stop boundary; confirmation count 42,False,False,False
+Warehouse,near_threshold,2.1,0.89,0.99,1.06,0.9400000000000001,1.0212714716548232,1.0009536037411175,STOP,At/below stop boundary; confirmation count 43,False,False,False
+Warehouse,near_threshold,2.15,0.9,0.96,,0.96,1.0212714716548232,1.0059536037411174,STOP,At/below stop boundary; confirmation count 44,False,False,False
+Warehouse,near_threshold,2.2,0.91,0.66,,0.96,1.0212714716548232,1.0059536037411174,STOP,At/below stop boundary; confirmation count 45,False,False,False
+Warehouse,near_threshold,2.25,0.92,1.04,0.8,0.96,0.9438264565756351,0.9478698424317263,STOP,At/below stop boundary; confirmation count 46,False,False,False
+Warehouse,near_threshold,2.3000000000000003,0.93,0.86,,0.86,0.9438264565756351,0.9228698424317263,STOP,At/below stop boundary; confirmation count 47,False,False,False
+Warehouse,near_threshold,2.35,0.9400000000000001,1.17,,1.04,0.9438264565756351,0.9678698424317264,STOP,At/below stop boundary; confirmation count 48,False,False,False
+Warehouse,near_threshold,2.4000000000000004,0.9500000000000001,1.0,0.96,1.0,0.9494871967741628,0.9621153975806221,STOP,At/below stop boundary; confirmation count 49,False,False,False
+Warehouse,near_threshold,2.45,0.9600000000000001,0.84,,1.0,0.9494871967741628,0.9621153975806221,STOP,At/below stop boundary; confirmation count 50,False,False,False
+Warehouse,near_threshold,2.5,0.87,1.01,,1.0,0.9494871967741628,0.9621153975806221,STOP,At/below stop boundary; confirmation count 51,False,False,False
+Warehouse,near_threshold,2.5500000000000003,0.88,0.8300000000000001,0.92,0.84,0.939166677903206,0.9143750084274045,STOP,At/below stop boundary; confirmation count 52,False,False,False
+Warehouse,near_threshold,2.6,0.89,0.9500000000000001,,0.9500000000000001,0.939166677903206,0.9418750084274046,STOP,At/below stop boundary; confirmation count 53,False,False,False
+Warehouse,near_threshold,2.6500000000000004,0.9,0.63,,0.8300000000000001,0.939166677903206,0.9118750084274045,STOP,At/below stop boundary; confirmation count 54,False,False,False
+Warehouse,near_threshold,2.7,0.91,0.9,0.88,0.9,0.9184583406370839,0.9138437554778128,STOP,At/below stop boundary; confirmation count 55,False,False,False
+Warehouse,near_threshold,2.75,0.92,0.98,,0.9,0.9184583406370839,0.9138437554778128,STOP,At/below stop boundary; confirmation count 56,False,False,False
+Warehouse,near_threshold,2.8000000000000003,0.93,0.9400000000000001,,0.9400000000000001,0.9184583406370839,0.9238437554778128,STOP,At/below stop boundary; confirmation count 57,False,False,False
+Warehouse,near_threshold,2.85,0.9400000000000001,0.75,1.0,0.9400000000000001,0.9469979214141045,0.9452484410605784,STOP,At/below stop boundary; confirmation count 58,False,False,False
+Warehouse,near_threshold,2.9000000000000004,0.9500000000000001,0.73,,0.75,0.9469979214141045,0.8977484410605784,STOP,At/below stop boundary; confirmation count 59,False,False,False
+Warehouse,near_threshold,2.95,0.9600000000000001,1.01,,0.75,0.9469979214141045,0.8977484410605784,STOP,At/below stop boundary; confirmation count 60,False,False,False
+Warehouse,near_threshold,3.0,0.87,0.78,0.98,0.78,0.9585486489191679,0.913911486689376,STOP,At/below stop boundary; confirmation count 61,False,False,False
+Warehouse,near_threshold,3.0500000000000003,0.88,0.93,,0.93,0.9585486489191679,0.951411486689376,STOP,At/below stop boundary; confirmation count 62,False,False,False
+Warehouse,near_threshold,3.1,0.89,0.76,,0.78,0.9585486489191679,0.913911486689376,STOP,At/below stop boundary; confirmation count 63,False,False,False
+Warehouse,near_threshold,3.1500000000000004,0.9,1.59,0.92,0.93,0.9450566217974592,0.9412924663480945,STOP,At/below stop boundary; confirmation count 64,False,False,False
+Warehouse,near_threshold,3.2,0.91,0.78,,0.78,0.9450566217974592,0.9037924663480945,STOP,At/below stop boundary; confirmation count 65,False,False,False
+Warehouse,near_threshold,3.25,0.92,0.8300000000000001,,0.8300000000000001,0.9450566217974592,0.9162924663480945,STOP,At/below stop boundary; confirmation count 66,False,False,False
+Warehouse,near_threshold,3.3000000000000003,0.93,1.04,1.02,0.8300000000000001,0.9712868041683484,0.9359651031262614,STOP,At/below stop boundary; confirmation count 67,False,False,False
+Warehouse,near_threshold,3.35,0.9400000000000001,1.12,,1.04,0.9712868041683484,0.9884651031262613,STOP,At/below stop boundary; confirmation count 68,False,False,False
+Warehouse,near_threshold,3.4000000000000004,0.9500000000000001,0.9500000000000001,,1.04,0.9712868041683484,0.9884651031262613,STOP,At/below stop boundary; confirmation count 69,False,False,False
+Warehouse,near_threshold,3.45,0.9600000000000001,0.86,1.0,0.9500000000000001,0.9813364227094264,0.9735023170320699,STOP,At/below stop boundary; confirmation count 70,False,False,False
+Warehouse,near_threshold,3.5,0.87,0.9400000000000001,,0.9400000000000001,0.9813364227094264,0.9710023170320699,STOP,At/below stop boundary; confirmation count 71,False,False,False
+Warehouse,near_threshold,3.5500000000000003,0.88,1.06,,0.9400000000000001,0.9813364227094264,0.9710023170320699,STOP,At/below stop boundary; confirmation count 72,False,False,False
+Warehouse,near_threshold,3.6,0.89,0.72,0.92,0.9400000000000001,0.9598686747611271,0.9549015060708453,STOP,At/below stop boundary; confirmation count 73,False,False,False
+Warehouse,near_threshold,3.6500000000000004,0.9,0.96,,0.96,0.9598686747611271,0.9599015060708453,STOP,At/below stop boundary; confirmation count 74,False,False,False
+Warehouse,near_threshold,3.7,0.91,0.92,,0.92,0.9598686747611271,0.9499015060708453,STOP,At/below stop boundary; confirmation count 75,False,False,False
+Warehouse,near_threshold,3.75,0.92,1.05,0.98,0.96,0.9669146385947326,0.9651859789460494,STOP,At/below stop boundary; confirmation count 76,False,False,False
+Warehouse,near_threshold,3.8000000000000003,0.93,1.1400000000000001,,1.05,0.9669146385947326,0.9876859789460495,STOP,At/below stop boundary; confirmation count 77,False,False,False
+Warehouse,near_threshold,3.85,0.9400000000000001,1.04,,1.05,0.9669146385947326,0.9876859789460495,STOP,At/below stop boundary; confirmation count 78,False,False,False
+Warehouse,near_threshold,3.9000000000000004,0.9500000000000001,0.9500000000000001,0.9400000000000001,1.04,0.9574945150865761,0.9781208863149321,STOP,At/below stop boundary; confirmation count 79,False,False,False
+Warehouse,near_threshold,3.95,0.9600000000000001,0.93,,0.9500000000000001,0.9574945150865761,0.9556208863149321,STOP,At/below stop boundary; confirmation count 80,False,False,False
+Warehouse,fast_approach,0.0,2.8,2.69,2.8000000000000003,2.69,2.8000000000000003,2.7725,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.05,2.76,2.63,,2.66,2.8000000000000003,2.765,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.1,2.7199999999999998,2.79,,2.69,2.8000000000000003,2.7725,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.15000000000000002,2.6799999999999997,2.63,2.84,2.63,2.814,2.768,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.2,2.6399999999999997,2.5,,2.63,2.814,2.768,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.25,2.5999999999999996,2.6,,2.6,2.814,2.7605,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.30000000000000004,2.5599999999999996,2.52,2.58,2.52,2.7321,2.679075,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.35000000000000003,2.5199999999999996,1.87,,2.52,2.7321,2.679075,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.4,2.48,2.29,,2.29,2.7321,2.621575,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.45,2.44,2.4,2.48,2.29,2.643865,2.55539875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.5,2.4,2.52,,2.4,2.643865,2.58289875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.55,2.36,2.48,,2.48,2.643865,2.60289875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.6000000000000001,2.32,2.57,2.34,2.52,2.53751225,2.5331341875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.65,2.28,2.07,,2.48,2.53751225,2.5231341874999997,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.7000000000000001,2.2399999999999998,2.18,,2.18,2.53751225,2.4481341875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.75,2.1999999999999997,2.12,2.2800000000000002,2.12,2.4473829625,2.365537221875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.8,2.1599999999999997,2.27,,2.18,2.4473829625,2.380537221875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.8500000000000001,2.1199999999999997,1.98,,2.12,2.4473829625,2.365537221875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.9,2.08,2.02,2.1,2.02,2.325798925625,2.24934919421875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,0.9500000000000001,2.04,2.05,,2.02,2.325798925625,2.24934919421875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.0,1.9999999999999998,2.02,,2.02,2.325798925625,2.24934919421875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.05,1.96,1.32,2.08,2.02,2.23976930165625,2.1848269762421877,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.1,1.92,1.98,,1.98,2.23976930165625,2.1748269762421875,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.1500000000000001,1.88,1.75,,1.75,2.23976930165625,2.117326976242188,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.2000000000000002,1.8399999999999999,1.74,1.74,1.75,2.064850046076563,1.9861375345574221,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.25,1.7999999999999998,1.84,,1.75,2.064850046076563,1.9861375345574221,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.3,1.7599999999999998,1.69,,1.74,2.064850046076563,1.9836375345574222,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.35,1.7199999999999998,1.82,1.74,1.82,1.9511525299497658,1.9183643974623243,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.4000000000000001,1.6799999999999997,1.73,,1.73,1.9511525299497658,1.8958643974623244,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.4500000000000002,1.64,1.61,,1.73,1.9511525299497658,1.8958643974623244,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.5,1.5999999999999999,1.55,1.56,1.61,1.8142491444673476,1.7631868583505108,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.55,1.5599999999999998,1.43,,1.55,1.8142491444673476,1.7481868583505107,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.6,1.5199999999999998,1.57,,1.55,1.8142491444673476,1.7481868583505107,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.6500000000000001,1.4799999999999998,1.4000000000000001,1.6600000000000001,1.43,1.7602619439037759,1.6776964579278317,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.7000000000000002,1.4399999999999997,1.45,,1.45,1.7602619439037759,1.6826964579278318,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.75,1.3999999999999997,1.46,,1.45,1.7602619439037759,1.6826964579278318,MOVE,Outside caution band,False,False,False
+Warehouse,fast_approach,1.8,1.3599999999999999,1.29,1.48,1.45,1.6621702635374545,1.6091276976530908,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,1.85,1.3199999999999998,1.23,,1.29,1.6621702635374545,1.5691276976530908,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,1.9000000000000001,1.2799999999999998,1.25,,1.25,1.6621702635374545,1.5591276976530908,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,1.9500000000000002,1.2399999999999998,1.52,1.3,1.25,1.5354106712993456,1.4640580034745092,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,2.0,1.1999999999999997,1.09,,1.25,1.5354106712993456,1.4640580034745092,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,2.0500000000000003,1.1599999999999997,1.19,,1.19,1.5354106712993456,1.449058003474509,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,2.1,1.1199999999999999,0.48,1.18,1.09,1.4110169363445746,1.330762702258431,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,2.15,1.0799999999999998,1.07,,1.07,1.4110169363445746,1.325762702258431,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,2.2,1.0399999999999998,1.03,,1.03,1.4110169363445746,1.315762702258431,SLOW,Inside caution band,False,False,False
+Warehouse,fast_approach,2.25,0.9999999999999998,0.79,1.02,1.03,1.2741610086239734,1.21312075646798,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,fast_approach,2.3000000000000003,0.9599999999999997,0.89,,0.89,1.2741610086239734,1.17812075646798,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,fast_approach,2.35,0.9199999999999997,0.86,,0.86,1.2741610086239734,1.17062075646798,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,fast_approach,2.4000000000000004,0.8799999999999999,0.84,0.88,0.86,1.1362046556055827,1.0671534917041872,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,fast_approach,2.45,0.8399999999999999,0.75,,0.84,1.1362046556055827,1.062153491704187,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,fast_approach,2.5,0.7999999999999998,0.77,,0.77,1.1362046556055827,1.044653491704187,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,fast_approach,2.5500000000000003,0.7599999999999998,0.85,0.74,0.77,0.9975330261436288,0.9406497696077216,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,fast_approach,2.6,0.7199999999999998,0.61,,0.77,0.9975330261436288,0.9406497696077216,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,fast_approach,2.6500000000000004,0.6799999999999997,0.8,,0.8,0.9975330261436288,0.9481497696077217,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,fast_approach,2.7,0.6399999999999997,0.52,0.64,0.61,0.8723964669933587,0.806797350245019,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,fast_approach,2.75,0.5999999999999996,0.7000000000000001,,0.7000000000000001,0.8723964669933587,0.829297350245019,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,fast_approach,2.8000000000000003,0.5599999999999996,0.66,,0.66,0.8723964669933587,0.819297350245019,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,fast_approach,2.85,0.5199999999999996,0.68,0.6,0.68,0.7770577035456832,0.7527932776592624,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,fast_approach,2.9000000000000004,0.48,0.35000000000000003,,0.66,0.7770577035456832,0.7477932776592624,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,fast_approach,2.95,0.43999999999999995,0.32,,0.35000000000000003,0.7770577035456832,0.6702932776592624,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Warehouse,fast_approach,3.0,0.3999999999999999,0.58,0.42,0.35000000000000003,0.6520875073046941,0.5765656304785206,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Warehouse,fast_approach,3.0500000000000003,0.3599999999999999,0.98,,0.58,0.6520875073046941,0.6340656304785206,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Warehouse,fast_approach,3.1,0.35,0.53,,0.58,0.6520875073046941,0.6340656304785206,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Warehouse,fast_approach,3.1500000000000004,0.35,0.24,0.42,0.53,0.5708568797480512,0.5606426598110383,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Warehouse,fast_approach,3.2,0.35,0.23,,0.24,0.5708568797480512,0.4881426598110384,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Warehouse,fast_approach,3.25,0.35,0.41000000000000003,,0.24,0.5708568797480512,0.4881426598110384,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Warehouse,fast_approach,3.3000000000000003,0.35,0.32,0.34,0.32,0.4900569718362333,0.447542728877175,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Warehouse,fast_approach,3.35,0.35,0.27,,0.32,0.4900569718362333,0.447542728877175,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Warehouse,fast_approach,3.4000000000000004,0.35,0.47000000000000003,,0.32,0.4900569718362333,0.447542728877175,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Warehouse,fast_approach,3.45,0.35,0.28,0.3,0.28,0.42353703169355167,0.38765277377016377,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Warehouse,fast_approach,3.5,0.35,0.11,,0.28,0.42353703169355167,0.38765277377016377,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Warehouse,fast_approach,3.5500000000000003,0.35,0.43,,0.28,0.42353703169355167,0.38765277377016377,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Warehouse,fast_approach,3.6,0.35,1.08,0.42,0.43,0.4222990706008086,0.4242243029506065,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Warehouse,fast_approach,3.6500000000000004,0.35,0.21,,0.43,0.4222990706008086,0.4242243029506065,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Warehouse,fast_approach,3.7,0.35,0.35000000000000003,,0.35000000000000003,0.4222990706008086,0.4042243029506065,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Warehouse,fast_approach,3.75,0.35,0.33,0.36,0.33,0.4004943958905256,0.3828707969178942,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Warehouse,fast_approach,3.8000000000000003,0.35,0.42,,0.35000000000000003,0.4004943958905256,0.3878707969178942,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Warehouse,fast_approach,3.85,0.35,0.3,,0.33,0.4004943958905256,0.3828707969178942,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Warehouse,fast_approach,3.9000000000000004,0.35,0.43,0.36,0.42,0.38632135732884165,0.3947410179966312,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Warehouse,fast_approach,3.95,0.35,0.33,,0.33,0.38632135732884165,0.37224101799663123,STOP,At/below stop boundary; confirmation count 35,False,False,False
+Warehouse,receding,0.0,0.55,0.76,0.62,0.76,0.62,0.655,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,receding,0.05,0.5750000000000001,0.52,,0.64,0.62,0.625,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,receding,0.1,0.6000000000000001,1.43,,0.76,0.62,0.655,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,receding,0.15000000000000002,0.625,0.52,0.66,0.52,0.634,0.6055,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,receding,0.2,0.65,0.44,,0.52,0.634,0.6055,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,receding,0.25,0.675,0.6900000000000001,,0.52,0.634,0.6055,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,receding,0.30000000000000004,0.7000000000000001,0.54,0.7000000000000001,0.54,0.6571,0.6278250000000001,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,receding,0.35000000000000003,0.7250000000000001,0.85,,0.6900000000000001,0.6571,0.665325,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,receding,0.4,0.75,0.49,,0.54,0.6571,0.6278250000000001,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,receding,0.45,0.775,0.78,0.72,0.78,0.679115,0.7043362500000001,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,receding,0.5,0.8,0.67,,0.67,0.679115,0.67683625,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,receding,0.55,0.8250000000000001,0.78,,0.78,0.679115,0.7043362500000001,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,receding,0.6000000000000001,0.8500000000000001,0.8300000000000001,0.88,0.78,0.74942475,0.7570685625,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,receding,0.65,0.875,0.79,,0.79,0.74942475,0.7595685624999999,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,receding,0.7000000000000001,0.9000000000000001,0.91,,0.8300000000000001,0.74942475,0.7695685624999999,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Warehouse,receding,0.75,0.925,0.81,1.02,0.81,0.8441260875,0.835594565625,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Warehouse,receding,0.8,0.9500000000000001,1.05,,0.91,0.8441260875,0.860594565625,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Warehouse,receding,0.8500000000000001,0.9750000000000001,0.6900000000000001,,0.81,0.8441260875,0.835594565625,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Warehouse,receding,0.9,1.0,0.9500000000000001,0.96,0.9500000000000001,0.884681956875,0.90101146765625,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Warehouse,receding,0.9500000000000001,1.0250000000000001,1.11,,0.9500000000000001,0.884681956875,0.90101146765625,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Warehouse,receding,1.0,1.05,1.05,,1.05,0.884681956875,0.9260114676562499,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Warehouse,receding,1.05,1.0750000000000002,1.1400000000000001,1.18,1.11,0.98804327196875,1.0185324539765626,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Warehouse,receding,1.1,1.1,0.9400000000000001,,1.05,0.98804327196875,1.0035324539765624,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Warehouse,receding,1.1500000000000001,1.125,1.03,,1.03,0.98804327196875,0.9985324539765625,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Warehouse,receding,1.2000000000000002,1.1500000000000001,1.24,1.1400000000000001,1.03,1.0412281267796875,1.0384210950847657,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Warehouse,receding,1.25,1.175,1.11,,1.11,1.0412281267796875,1.0584210950847657,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Warehouse,receding,1.3,1.2000000000000002,1.08,,1.11,1.0412281267796875,1.0584210950847657,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Warehouse,receding,1.35,1.225,1.22,1.34,1.11,1.1457982824067967,1.1368487118050976,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Warehouse,receding,1.4000000000000001,1.25,1.08,,1.08,1.1457982824067967,1.1293487118050975,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Warehouse,receding,1.4500000000000002,1.2750000000000001,1.4000000000000001,,1.22,1.1457982824067967,1.1643487118050975,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Warehouse,receding,1.5,1.3,1.1400000000000001,,1.1400000000000001,1.1457982824067967,1.1443487118050975,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Warehouse,receding,1.55,1.3250000000000002,1.35,,1.35,1.1457982824067967,1.1968487118050977,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Warehouse,receding,1.6,1.35,1.19,,1.19,1.1457982824067967,1.1568487118050976,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Warehouse,receding,1.6500000000000001,1.375,1.56,1.44,1.35,1.2487688835644177,1.2740766626733133,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Warehouse,receding,1.7000000000000002,1.4000000000000001,1.57,,1.56,1.2487688835644177,1.3265766626733133,SLOW,Inside caution band,False,False,False
+Warehouse,receding,1.75,1.425,1.34,,1.56,1.2487688835644177,1.3265766626733133,SLOW,Inside caution band,False,False,False
+Warehouse,receding,1.8,1.4500000000000002,1.25,1.6,1.34,1.3716997743168715,1.3637748307376536,SLOW,Inside caution band,False,False,False
+Warehouse,receding,1.85,1.475,1.37,,1.34,1.3716997743168715,1.3637748307376536,SLOW,Inside caution band,False,False,False
+Warehouse,receding,1.9000000000000001,1.5,1.55,,1.37,1.3716997743168715,1.3712748307376537,SLOW,Inside caution band,False,False,False
+Warehouse,receding,1.9500000000000002,1.5250000000000001,1.61,1.6,1.55,1.4516048533059664,1.476203639979475,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.0,1.55,1.68,,1.61,1.4516048533059664,1.491203639979475,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.0500000000000003,1.5750000000000002,1.49,,1.61,1.4516048533059664,1.491203639979475,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.1,1.6,1.61,1.68,1.61,1.5315431546488782,1.5511573659866589,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.15,1.625,1.69,,1.61,1.5315431546488782,1.5511573659866589,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.2,1.6500000000000001,1.77,,1.69,1.5315431546488782,1.5711573659866587,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.25,1.675,2.39,1.6600000000000001,1.77,1.576503050521771,1.6248772878913282,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.3000000000000003,1.7000000000000002,2.46,,2.39,1.576503050521771,1.7798772878913285,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.35,1.725,1.4000000000000001,,2.39,1.576503050521771,1.7798772878913285,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.4000000000000004,1.7500000000000002,1.6,1.8,1.6,1.654726982839151,1.6410452371293633,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.45,1.7750000000000001,1.86,,1.6,1.654726982839151,1.6410452371293633,SLOW,Inside caution band,False,False,False
+Warehouse,receding,2.5,1.8,2.43,,1.86,1.654726982839151,1.7060452371293635,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.5500000000000003,1.8250000000000002,1.55,1.86,1.86,1.7265725388454483,1.7599294041340863,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.6,1.85,1.82,,1.82,1.7265725388454483,1.7499294041340863,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.6500000000000004,1.8750000000000002,1.99,,1.82,1.7265725388454483,1.7499294041340863,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.7,1.9000000000000001,1.8800000000000001,1.86,1.8800000000000001,1.7732721502495414,1.799954112687156,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.75,1.925,1.9000000000000001,,1.9000000000000001,1.7732721502495414,1.8049541126871562,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.8000000000000003,1.9500000000000002,1.83,,1.8800000000000001,1.7732721502495414,1.799954112687156,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.85,1.975,2.11,2.06,1.9000000000000001,1.8736268976622021,1.8802201732466517,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.9000000000000004,2.0,1.97,,1.97,1.8736268976622021,1.8977201732466515,MOVE,Outside caution band,False,False,False
+Warehouse,receding,2.95,2.0250000000000004,2.22,,2.11,1.8736268976622021,1.9327201732466515,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.0,2.05,1.94,2.1,1.97,1.9528574834804315,1.9571431126103236,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.0500000000000003,2.075,2.04,,2.04,1.9528574834804315,1.9746431126103237,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.1,2.1,2.11,,2.04,1.9528574834804315,1.9746431126103237,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.1500000000000004,2.125,2.0300000000000002,2.16,2.04,2.0253573642622804,2.02901802319671,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.2,2.1500000000000004,2.16,,2.11,2.0253573642622804,2.04651802319671,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.25,2.175,2.11,,2.11,2.0253573642622804,2.04651802319671,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.3000000000000003,2.2,2.23,2.2,2.16,2.086482286770482,2.1048617150778615,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.35,2.225,2.41,,2.23,2.086482286770482,2.1223617150778615,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.4000000000000004,2.25,2.25,,2.25,2.086482286770482,2.1273617150778614,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.45,2.2750000000000004,2.38,2.4,2.38,2.1962134864008136,2.24216011480061,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.5,2.3,2.07,,2.25,2.1962134864008136,2.2096601148006103,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.5500000000000003,2.325,2.45,,2.38,2.1962134864008136,2.24216011480061,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.6,2.35,2.44,2.36,2.44,2.253538766160529,2.3001540746203966,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.6500000000000004,2.375,2.45,,2.45,2.253538766160529,2.3026540746203965,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.7,2.4000000000000004,2.77,,2.45,2.253538766160529,2.3026540746203965,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.75,2.425,2.31,2.62,2.45,2.3818001980043437,2.398850148503258,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.8000000000000003,2.45,2.61,,2.61,2.3818001980043437,2.4388501485032577,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.85,2.475,2.5100000000000002,,2.5100000000000002,2.3818001980043437,2.4138501485032577,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.9000000000000004,2.5,2.61,2.56,2.61,2.4441701287028232,2.4856275965271175,MOVE,Outside caution band,False,False,False
+Warehouse,receding,3.95,2.5250000000000004,2.6,,2.6,2.4441701287028232,2.4831275965271176,MOVE,Outside caution band,False,False,False
+Warehouse,conflicting_sensors,0.0,1.0,0.93,1.08,0.93,1.08,1.0425,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,conflicting_sensors,0.05,1.0,1.12,,1.0250000000000001,1.08,1.0662500000000001,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,conflicting_sensors,0.1,1.0,1.07,,1.07,1.08,1.0775000000000001,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,conflicting_sensors,0.15000000000000002,1.0,0.97,1.02,1.07,1.0590000000000002,1.0617500000000002,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,conflicting_sensors,0.2,1.0,1.09,,1.07,1.0590000000000002,1.0617500000000002,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,conflicting_sensors,0.25,1.0,0.9400000000000001,,0.97,1.0590000000000002,1.03675,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,conflicting_sensors,0.30000000000000004,1.0,1.12,0.96,1.09,1.02435,1.0407625,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,conflicting_sensors,0.35000000000000003,1.0,0.86,,0.9400000000000001,1.02435,1.0032625000000002,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,conflicting_sensors,0.4,1.0,1.08,,1.08,1.02435,1.0382625,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,conflicting_sensors,0.45,1.0,1.17,1.08,1.08,1.0438275000000001,1.0528706250000002,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,conflicting_sensors,0.5,1.0,1.12,,1.12,1.0438275000000001,1.0628706250000002,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,conflicting_sensors,0.55,1.0,1.02,,1.12,1.0438275000000001,1.0628706250000002,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,conflicting_sensors,0.6000000000000001,1.0,0.75,1.06,1.02,1.049487875,1.04211590625,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,conflicting_sensors,0.65,1.0,0.96,,0.96,1.049487875,1.0271159062500002,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,conflicting_sensors,0.7000000000000001,1.0,1.0,,0.96,1.049487875,1.0271159062500002,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Warehouse,conflicting_sensors,0.75,1.0,0.9400000000000001,1.06,0.96,1.05316711875,1.0298753390625,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Warehouse,conflicting_sensors,0.8,1.0,0.6799999999999999,,0.9400000000000001,1.05316711875,1.0248753390625,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Warehouse,conflicting_sensors,0.8500000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.05316711875,0.9598753390624999,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Warehouse,conflicting_sensors,0.9,1.0,0.6799999999999999,1.28,0.6799999999999999,1.1325586271875,1.0194189703906251,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Warehouse,conflicting_sensors,0.9500000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.1325586271875,1.0194189703906251,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Warehouse,conflicting_sensors,1.0,1.0,0.6799999999999999,,0.6799999999999999,1.1325586271875,1.0194189703906251,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Warehouse,conflicting_sensors,1.05,1.0,0.6799999999999999,1.28,0.6799999999999999,1.184163107671875,1.0581223307539063,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Warehouse,conflicting_sensors,1.1,1.0,0.6799999999999999,,0.6799999999999999,1.184163107671875,1.0581223307539063,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Warehouse,conflicting_sensors,1.1500000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.184163107671875,1.0581223307539063,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Warehouse,conflicting_sensors,1.2000000000000002,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2177060199867187,1.083279514990039,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Warehouse,conflicting_sensors,1.25,1.0,0.6799999999999999,,0.6799999999999999,1.2177060199867187,1.083279514990039,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Warehouse,conflicting_sensors,1.3,1.0,0.6799999999999999,,0.6799999999999999,1.2177060199867187,1.083279514990039,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Warehouse,conflicting_sensors,1.35,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2395089129913672,1.0996316847435255,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Warehouse,conflicting_sensors,1.4000000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.2395089129913672,1.0996316847435255,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Warehouse,conflicting_sensors,1.4500000000000002,1.0,0.6799999999999999,,0.6799999999999999,1.2395089129913672,1.0996316847435255,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Warehouse,conflicting_sensors,1.5,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2536807934443885,1.1102605950832913,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Warehouse,conflicting_sensors,1.55,1.0,0.6799999999999999,,0.6799999999999999,1.2536807934443885,1.1102605950832913,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Warehouse,conflicting_sensors,1.6,1.0,0.6799999999999999,,0.6799999999999999,1.2536807934443885,1.1102605950832913,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Warehouse,conflicting_sensors,1.6500000000000001,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2628925157388524,1.1171693868041392,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Warehouse,conflicting_sensors,1.7000000000000002,1.0,0.6799999999999999,,0.6799999999999999,1.2628925157388524,1.1171693868041392,STOP,At/below stop boundary; confirmation count 35,False,False,False
+Warehouse,conflicting_sensors,1.75,1.0,0.6799999999999999,,0.6799999999999999,1.2628925157388524,1.1171693868041392,STOP,At/below stop boundary; confirmation count 36,False,False,False
+Warehouse,conflicting_sensors,1.8,1.0,0.6799999999999999,1.28,0.6799999999999999,1.268880135230254,1.1216601014226903,STOP,At/below stop boundary; confirmation count 37,False,False,False
+Warehouse,conflicting_sensors,1.85,1.0,0.6799999999999999,,0.6799999999999999,1.268880135230254,1.1216601014226903,STOP,At/below stop boundary; confirmation count 38,False,False,False
+Warehouse,conflicting_sensors,1.9000000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.268880135230254,1.1216601014226903,STOP,At/below stop boundary; confirmation count 39,False,False,False
+Warehouse,conflicting_sensors,1.9500000000000002,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2727720878996651,1.1245790659247488,STOP,At/below stop boundary; confirmation count 40,False,False,False
+Warehouse,conflicting_sensors,2.0,1.0,0.6799999999999999,,0.6799999999999999,1.2727720878996651,1.1245790659247488,STOP,At/below stop boundary; confirmation count 41,False,False,False
+Warehouse,conflicting_sensors,2.0500000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2727720878996651,1.1245790659247488,STOP,At/below stop boundary; confirmation count 42,False,False,False
+Warehouse,conflicting_sensors,2.1,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2753018571347823,1.1264763928510866,STOP,At/below stop boundary; confirmation count 43,False,False,False
+Warehouse,conflicting_sensors,2.15,1.0,0.6799999999999999,,0.6799999999999999,1.2753018571347823,1.1264763928510866,STOP,At/below stop boundary; confirmation count 44,False,False,False
+Warehouse,conflicting_sensors,2.2,1.0,0.6799999999999999,,0.6799999999999999,1.2753018571347823,1.1264763928510866,STOP,At/below stop boundary; confirmation count 45,False,False,False
+Warehouse,conflicting_sensors,2.25,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2769462071376085,1.1277096553532064,STOP,At/below stop boundary; confirmation count 46,False,False,False
+Warehouse,conflicting_sensors,2.3000000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2769462071376085,1.1277096553532064,STOP,At/below stop boundary; confirmation count 47,False,False,False
+Warehouse,conflicting_sensors,2.35,1.0,0.6799999999999999,,0.6799999999999999,1.2769462071376085,1.1277096553532064,STOP,At/below stop boundary; confirmation count 48,False,False,False
+Warehouse,conflicting_sensors,2.4000000000000004,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2780150346394454,1.1285112759795841,STOP,At/below stop boundary; confirmation count 49,False,False,False
+Warehouse,conflicting_sensors,2.45,1.0,0.6799999999999999,,0.6799999999999999,1.2780150346394454,1.1285112759795841,STOP,At/below stop boundary; confirmation count 50,False,False,False
+Warehouse,conflicting_sensors,2.5,1.0,0.6799999999999999,,0.6799999999999999,1.2780150346394454,1.1285112759795841,STOP,At/below stop boundary; confirmation count 51,False,False,False
+Warehouse,conflicting_sensors,2.5500000000000003,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2787097725156396,1.1290323293867297,STOP,At/below stop boundary; confirmation count 52,False,False,False
+Warehouse,conflicting_sensors,2.6,1.0,0.6799999999999999,,0.6799999999999999,1.2787097725156396,1.1290323293867297,STOP,At/below stop boundary; confirmation count 53,False,False,False
+Warehouse,conflicting_sensors,2.6500000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.2787097725156396,1.1290323293867297,STOP,At/below stop boundary; confirmation count 54,False,False,False
+Warehouse,conflicting_sensors,2.7,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2791613521351657,1.1293710141013742,STOP,At/below stop boundary; confirmation count 55,False,False,False
+Warehouse,conflicting_sensors,2.75,1.0,0.6799999999999999,,0.6799999999999999,1.2791613521351657,1.1293710141013742,STOP,At/below stop boundary; confirmation count 56,False,False,False
+Warehouse,conflicting_sensors,2.8000000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2791613521351657,1.1293710141013742,STOP,At/below stop boundary; confirmation count 57,False,False,False
+Warehouse,conflicting_sensors,2.85,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2794548788878577,1.1295911591658931,STOP,At/below stop boundary; confirmation count 58,False,False,False
+Warehouse,conflicting_sensors,2.9000000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.2794548788878577,1.1295911591658931,STOP,At/below stop boundary; confirmation count 59,False,False,False
+Warehouse,conflicting_sensors,2.95,1.0,0.6799999999999999,,0.6799999999999999,1.2794548788878577,1.1295911591658931,STOP,At/below stop boundary; confirmation count 60,False,False,False
+Warehouse,conflicting_sensors,3.0,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2796456712771076,1.1297342534578307,STOP,At/below stop boundary; confirmation count 61,False,False,False
+Warehouse,conflicting_sensors,3.0500000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2796456712771076,1.1297342534578307,STOP,At/below stop boundary; confirmation count 62,False,False,False
+Warehouse,conflicting_sensors,3.1,1.0,0.6799999999999999,,0.6799999999999999,1.2796456712771076,1.1297342534578307,STOP,At/below stop boundary; confirmation count 63,False,False,False
+Warehouse,conflicting_sensors,3.1500000000000004,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2797696863301198,1.1298272647475898,STOP,At/below stop boundary; confirmation count 64,False,False,False
+Warehouse,conflicting_sensors,3.2,1.0,0.6799999999999999,,0.6799999999999999,1.2797696863301198,1.1298272647475898,STOP,At/below stop boundary; confirmation count 65,False,False,False
+Warehouse,conflicting_sensors,3.25,1.0,0.6799999999999999,,0.6799999999999999,1.2797696863301198,1.1298272647475898,STOP,At/below stop boundary; confirmation count 66,False,False,False
+Warehouse,conflicting_sensors,3.3000000000000003,1.0,0.6799999999999999,1.28,0.6799999999999999,1.279850296114578,1.1298877220859334,STOP,At/below stop boundary; confirmation count 67,False,False,False
+Warehouse,conflicting_sensors,3.35,1.0,0.6799999999999999,,0.6799999999999999,1.279850296114578,1.1298877220859334,STOP,At/below stop boundary; confirmation count 68,False,False,False
+Warehouse,conflicting_sensors,3.4000000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.279850296114578,1.1298877220859334,STOP,At/below stop boundary; confirmation count 69,False,False,False
+Warehouse,conflicting_sensors,3.45,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2799026924744756,1.1299270193558566,STOP,At/below stop boundary; confirmation count 70,False,False,False
+Warehouse,conflicting_sensors,3.5,1.0,0.6799999999999999,,0.6799999999999999,1.2799026924744756,1.1299270193558566,STOP,At/below stop boundary; confirmation count 71,False,False,False
+Warehouse,conflicting_sensors,3.5500000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2799026924744756,1.1299270193558566,STOP,At/below stop boundary; confirmation count 72,False,False,False
+Warehouse,conflicting_sensors,3.6,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2799367501084091,1.1299525625813067,STOP,At/below stop boundary; confirmation count 73,False,False,False
+Warehouse,conflicting_sensors,3.6500000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.2799367501084091,1.1299525625813067,STOP,At/below stop boundary; confirmation count 74,False,False,False
+Warehouse,conflicting_sensors,3.7,1.0,0.6799999999999999,,0.6799999999999999,1.2799367501084091,1.1299525625813067,STOP,At/below stop boundary; confirmation count 75,False,False,False
+Warehouse,conflicting_sensors,3.75,1.0,0.6799999999999999,1.28,0.6799999999999999,1.279958887570466,1.1299691656778494,STOP,At/below stop boundary; confirmation count 76,False,False,False
+Warehouse,conflicting_sensors,3.8000000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.279958887570466,1.1299691656778494,STOP,At/below stop boundary; confirmation count 77,False,False,False
+Warehouse,conflicting_sensors,3.85,1.0,0.6799999999999999,,0.6799999999999999,1.279958887570466,1.1299691656778494,STOP,At/below stop boundary; confirmation count 78,False,False,False
+Warehouse,conflicting_sensors,3.9000000000000004,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2799732769208028,1.129979957690602,STOP,At/below stop boundary; confirmation count 79,False,False,False
+Warehouse,conflicting_sensors,3.95,1.0,0.6799999999999999,,0.6799999999999999,1.2799732769208028,1.129979957690602,STOP,At/below stop boundary; confirmation count 80,False,False,False
+Warehouse,dropout_burst,0.0,1.4,1.47,1.42,1.47,1.42,1.4324999999999999,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.05,1.4,1.48,,1.475,1.42,1.4337499999999999,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.1,1.4,1.58,,1.48,1.42,1.435,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.15000000000000002,1.4,1.49,1.46,1.49,1.434,1.448,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.2,1.4,1.57,,1.57,1.434,1.468,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.25,1.4,1.37,,1.49,1.434,1.448,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.30000000000000004,1.4,1.62,1.32,1.57,1.3941,1.438075,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.35000000000000003,1.4,1.18,,1.37,1.3941,1.388075,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.4,1.4,1.33,,1.33,1.3941,1.378075,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.45,1.4,1.57,1.4000000000000001,1.33,1.3961649999999999,1.37962375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.5,1.4,1.4000000000000001,,1.4000000000000001,1.3961649999999999,1.39712375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.55,1.4,1.52,,1.52,1.3961649999999999,1.4271237499999998,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.6000000000000001,1.4,1.22,1.52,1.4000000000000001,1.43950725,1.4296304375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.65,1.4,1.36,,1.36,1.43950725,1.4196304375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.7000000000000001,1.4,1.32,,1.32,1.43950725,1.4096304375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.75,1.4,1.24,1.5,1.32,1.4606797124999997,1.425509784375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.8,1.4,1.4000000000000001,,1.32,1.4606797124999997,1.425509784375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.8500000000000001,1.4,1.42,,1.4000000000000001,1.4606797124999997,1.445509784375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.9,1.4,1.3,1.46,1.4000000000000001,1.4604418131249999,1.44533135984375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,0.9500000000000001,1.4,0.44,,1.3,1.4604418131249999,1.42033135984375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.0,1.4,1.41,,1.3,1.4604418131249999,1.42033135984375,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.05,1.4,1.24,1.44,1.24,1.45328717853125,1.3999653838984376,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.1,1.4,1.43,,1.41,1.45328717853125,1.4424653838984376,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.1500000000000001,1.4,1.35,,1.35,1.45328717853125,1.4274653838984377,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.2000000000000002,1.4,0.59,1.48,1.35,1.4626366660453125,1.4344774995339842,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.25,1.4,1.23,,1.23,1.4626366660453125,1.4044774995339844,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.3,1.4,1.35,,1.23,1.4626366660453125,1.4044774995339844,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.35,1.4,1.45,1.42,1.35,1.447713832929453,1.4232853746970897,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.4000000000000001,1.4,1.54,,1.45,1.447713832929453,1.4482853746970898,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.4500000000000002,1.4,1.54,,1.54,1.447713832929453,1.4707853746970898,SLOW,Inside caution band,False,False,False
+Warehouse,dropout_burst,1.5,1.4,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,True,False
+Warehouse,dropout_burst,1.55,1.4,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,True,False
+Warehouse,dropout_burst,1.6,1.4,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,True,False
+Warehouse,dropout_burst,1.6500000000000001,1.4,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,True,False
+Warehouse,dropout_burst,1.7000000000000002,1.4,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,True,False
+Warehouse,dropout_burst,1.75,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,1.8,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,1.85,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,1.9000000000000001,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,1.9500000000000002,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.0,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.0500000000000003,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.1,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.15,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.2,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.25,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.3000000000000003,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.35,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.4000000000000004,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.45,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.5,0.65,,,1.54,1.447713832929453,1.4707853746970898,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,2.5500000000000003,0.65,0.73,0.7000000000000001,1.54,1.1860139914041445,1.2745104935531084,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,dropout_burst,2.6,0.65,0.78,,0.78,1.1860139914041445,1.0845104935531085,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,dropout_burst,2.6500000000000004,0.65,0.73,,0.73,1.1860139914041445,1.0720104935531083,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,dropout_burst,2.7,0.65,0.64,0.68,0.73,1.008909094412694,0.9391818208095205,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,dropout_burst,2.75,0.65,0.55,,0.64,1.008909094412694,0.9166818208095205,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,dropout_burst,2.8000000000000003,0.65,0.53,,0.55,1.008909094412694,0.8941818208095205,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,dropout_burst,2.85,0.65,0.56,0.7000000000000001,0.55,0.9007909113682511,0.8130931835261883,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,dropout_burst,2.9000000000000004,0.65,0.62,,0.56,0.9007909113682511,0.8155931835261884,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,dropout_burst,2.95,0.65,0.71,,0.62,0.9007909113682511,0.8305931835261884,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,dropout_burst,3.0,0.65,,0.72,0.62,0.8375140923893633,0.7831355692920224,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,dropout_burst,3.0500000000000003,0.65,0.71,,0.71,0.8375140923893633,0.8056355692920224,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,dropout_burst,3.1,0.65,0.62,,0.71,0.8375140923893633,0.8056355692920224,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Warehouse,dropout_burst,3.1500000000000004,0.65,0.58,0.74,0.62,0.8033841600530861,0.7575381200398146,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Warehouse,dropout_burst,3.2,0.65,1.1,,0.62,0.8033841600530861,0.7575381200398146,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Warehouse,dropout_burst,3.25,0.65,,,0.62,0.8033841600530861,0.7575381200398146,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,3.3000000000000003,0.65,0.71,0.68,0.71,0.760199704034506,0.7476497780258795,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,dropout_burst,3.35,0.65,0.44,,0.71,0.760199704034506,0.7476497780258795,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Warehouse,dropout_burst,3.4000000000000004,0.65,0.7000000000000001,,0.7000000000000001,0.760199704034506,0.7451497780258796,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Warehouse,dropout_burst,3.45,0.65,0.62,0.66,0.62,0.7251298076224288,0.6988473557168217,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Warehouse,dropout_burst,3.5,0.65,0.76,,0.7000000000000001,0.7251298076224288,0.7188473557168217,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Warehouse,dropout_burst,3.5500000000000003,0.65,0.68,,0.68,0.7251298076224288,0.7138473557168217,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Warehouse,dropout_burst,3.6,0.65,0.6900000000000001,0.78,0.6900000000000001,0.7443343749545788,0.7307507812159341,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Warehouse,dropout_burst,3.6500000000000004,0.65,0.35000000000000003,,0.68,0.7443343749545788,0.7282507812159341,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Warehouse,dropout_burst,3.7,0.65,0.65,,0.65,0.7443343749545788,0.720750781215934,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Warehouse,dropout_burst,3.75,0.65,,0.7000000000000001,0.65,0.7288173437204761,0.709113007790357,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Warehouse,dropout_burst,3.8000000000000003,0.65,0.56,,0.56,0.7288173437204761,0.686613007790357,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Warehouse,dropout_burst,3.85,0.65,,,0.56,0.7288173437204761,0.686613007790357,STOP,Both current readings missing,False,False,False
+Warehouse,dropout_burst,3.9000000000000004,0.65,0.7000000000000001,0.78,0.65,0.7467312734183095,0.7225484550637321,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Warehouse,dropout_burst,3.95,0.65,0.72,,0.7000000000000001,0.7467312734183095,0.7350484550637322,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,clearly_safe,0.0,2.5,2.5100000000000002,2.5,2.5100000000000002,2.5,2.5025,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.05,2.5,2.25,,2.38,2.5,2.4699999999999998,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.1,2.5,2.43,,2.43,2.5,2.4825,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.15000000000000002,2.5,3.25,2.64,2.43,2.549,2.51925,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.2,2.5,2.5300000000000002,,2.5300000000000002,2.549,2.54425,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.25,2.5,2.43,,2.5300000000000002,2.549,2.54425,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.30000000000000004,2.5,2.37,2.64,2.43,2.58085,2.5431375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.35000000000000003,2.5,2.45,,2.43,2.58085,2.5431375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.4,2.5,2.5,,2.45,2.58085,2.5481375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.45,2.5,2.44,2.58,2.45,2.5805525,2.5479143750000004,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.5,2.5,2.5500000000000003,,2.5,2.5805525,2.560414375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.55,2.5,2.44,,2.44,2.5805525,2.545414375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.6000000000000001,2.5,2.5,2.56,2.5,2.573359125,2.55501934375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.65,2.5,2.22,,2.44,2.573359125,2.54001934375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.7000000000000001,2.5,2.63,,2.5,2.573359125,2.55501934375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.75,2.5,2.66,2.58,2.63,2.57568343125,2.5892625734375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.8,2.5,3.5700000000000003,,2.66,2.57568343125,2.5967625734375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.8500000000000001,2.5,2.47,,2.66,2.57568343125,2.5967625734375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.9,2.5,2.31,2.58,2.47,2.5771942303124997,2.550395672734375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,0.9500000000000001,2.5,2.52,,2.47,2.5771942303124997,2.550395672734375,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.0,2.5,2.72,,2.52,2.5771942303124997,2.5628956727343746,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.05,2.5,2.35,2.46,2.52,2.536176249703125,2.5321321872773437,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.1,2.5,2.19,,2.35,2.536176249703125,2.4896321872773437,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.1500000000000001,2.5,2.56,,2.35,2.536176249703125,2.4896321872773437,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.2000000000000002,2.5,,2.52,2.35,2.5305145623070313,2.4853859217302734,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.25,2.5,2.45,,2.45,2.5305145623070313,2.5103859217302738,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.3,2.5,2.45,,2.45,2.5305145623070313,2.5103859217302738,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.35,2.5,2.57,2.56,2.45,2.5408344654995703,2.5181258491246776,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.4000000000000001,2.5,2.36,,2.45,2.5408344654995703,2.5181258491246776,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.4500000000000002,2.5,2.58,,2.57,2.5408344654995703,2.548125849124678,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.5,2.5,2.54,2.46,2.54,2.512542402574721,2.5194068019310407,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.55,2.5,2.39,,2.54,2.512542402574721,2.5194068019310407,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.6,2.5,2.5500000000000003,,2.54,2.512542402574721,2.5194068019310407,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.6500000000000001,2.5,2.77,2.64,2.5500000000000003,2.5571525616735684,2.5553644212551765,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.7000000000000002,2.5,2.33,,2.5500000000000003,2.5571525616735684,2.5553644212551765,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.75,2.5,2.37,,2.37,2.5571525616735684,2.5103644212551766,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.8,2.5,2.54,2.52,2.37,2.5441491650878194,2.5006118738158643,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.85,2.5,2.68,,2.54,2.5441491650878194,2.5431118738158647,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.9000000000000001,2.5,2.5,,2.54,2.5441491650878194,2.5431118738158647,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,1.9500000000000002,2.5,2.46,2.6,2.5,2.5636969573070827,2.547772717980312,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.0,2.5,2.7,,2.5,2.5636969573070827,2.547772717980312,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.0500000000000003,2.5,2.54,,2.54,2.5636969573070827,2.557772717980312,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.1,2.5,2.5300000000000002,,2.54,2.5636969573070827,2.557772717980312,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.15,2.5,,,2.54,2.5636969573070827,2.557772717980312,STOP,Both current readings missing,False,True,False
+Assistive,clearly_safe,2.2,2.5,2.52,,2.5300000000000002,2.5636969573070827,2.555272717980312,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.25,2.5,3.1,2.54,2.5300000000000002,2.5554030222496036,2.5490522666872026,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.3000000000000003,2.5,2.63,,2.63,2.5554030222496036,2.574052266687203,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.35,2.5,2.48,,2.63,2.5554030222496036,2.574052266687203,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.4000000000000004,2.5,2.71,2.56,2.63,2.557011964462242,2.5752589733466813,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.45,2.5,2.5100000000000002,,2.5100000000000002,2.557011964462242,2.5452589733466815,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.5,2.5,2.64,,2.64,2.557011964462242,2.5777589733466817,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.5500000000000003,2.5,2.67,2.58,2.64,2.565057776900457,2.583793332675343,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.6,2.5,2.36,,2.64,2.565057776900457,2.583793332675343,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.6500000000000004,2.5,1.82,,2.36,2.565057776900457,2.513793332675343,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.7,2.5,2.27,2.54,2.27,2.556287554985297,2.484715666238973,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.75,2.5,2.81,,2.27,2.556287554985297,2.484715666238973,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.8000000000000003,2.5,2.7600000000000002,,2.7600000000000002,2.556287554985297,2.607215666238973,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.85,2.5,2.39,2.6,2.7600000000000002,2.571586910740443,2.618690183055332,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.9000000000000004,2.5,2.57,,2.57,2.571586910740443,2.5711901830553323,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,2.95,2.5,2.56,,2.56,2.571586910740443,2.5686901830553324,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.0,2.5,2.56,2.52,2.56,2.553531491981288,2.555148618985966,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.0500000000000003,2.5,2.64,,2.56,2.553531491981288,2.555148618985966,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.1,2.5,2.56,,2.56,2.553531491981288,2.555148618985966,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.1500000000000004,2.5,,2.68,2.56,2.5977954697878376,2.588346602340878,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.2,2.5,2.42,,2.56,2.5977954697878376,2.588346602340878,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.25,2.5,2.5500000000000003,,2.5500000000000003,2.5977954697878376,2.585846602340878,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.3000000000000003,2.5,2.5300000000000002,2.52,2.5300000000000002,2.570567055362094,2.560425291521571,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.35,2.5,2.43,,2.5300000000000002,2.570567055362094,2.560425291521571,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.4000000000000004,2.5,2.46,,2.46,2.570567055362094,2.5429252915215708,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.45,2.5,2.5,,2.46,2.570567055362094,2.5429252915215708,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.5,2.5,2.45,,2.46,2.570567055362094,2.5429252915215708,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.5500000000000003,2.5,2.45,,2.45,2.570567055362094,2.5404252915215704,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.6,2.5,2.42,2.56,2.45,2.566868585985361,2.5376514394890206,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.6500000000000004,2.5,2.4,,2.42,2.566868585985361,2.5301514394890208,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.7,2.5,2.46,,2.42,2.566868585985361,2.5301514394890208,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.75,2.5,2.56,2.54,2.46,2.5574645808904846,2.5330984356678634,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.8000000000000003,2.5,2.42,,2.46,2.5574645808904846,2.5330984356678634,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.85,2.5,2.27,,2.42,2.5574645808904846,2.5230984356678636,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.9000000000000004,2.5,2.21,2.52,2.27,2.544351977578815,2.475763983184111,MOVE,Outside caution band,False,False,False
+Assistive,clearly_safe,3.95,2.5,2.58,,2.27,2.544351977578815,2.475763983184111,MOVE,Outside caution band,False,False,False
+Assistive,stationary_danger,0.0,0.55,0.53,0.64,0.53,0.64,0.6125,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,stationary_danger,0.05,0.55,0.5700000000000001,,0.55,0.64,0.6174999999999999,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,stationary_danger,0.1,0.55,0.62,,0.5700000000000001,0.64,0.6225,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,stationary_danger,0.15000000000000002,0.55,0.68,0.66,0.62,0.647,0.64025,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,stationary_danger,0.2,0.55,0.54,,0.62,0.647,0.64025,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,stationary_danger,0.25,0.55,0.65,,0.65,0.647,0.64775,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,stationary_danger,0.30000000000000004,0.55,0.28,0.5,0.54,0.59555,0.5816625,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,stationary_danger,0.35000000000000003,0.55,1.31,,0.65,0.59555,0.6091625,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,stationary_danger,0.4,0.55,0.6,,0.6,0.59555,0.5966625,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,stationary_danger,0.45,0.55,0.45,0.62,0.6,0.6041075,0.603080625,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,stationary_danger,0.5,0.55,0.5,,0.5,0.6041075,0.578080625,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,stationary_danger,0.55,0.55,0.48,,0.48,0.6041075,0.573080625,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,stationary_danger,0.6000000000000001,0.55,0.63,0.56,0.5,0.588669875,0.56650240625,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,stationary_danger,0.65,0.55,0.46,,0.48,0.588669875,0.56150240625,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,stationary_danger,0.7000000000000001,0.55,0.61,,0.61,0.588669875,0.59400240625,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,stationary_danger,0.75,0.55,0.41000000000000003,0.66,0.46,0.6136354187499999,0.5752265640625,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Assistive,stationary_danger,0.8,0.55,0.6,,0.6,0.6136354187499999,0.6102265640625,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Assistive,stationary_danger,0.8500000000000001,0.55,0.61,,0.6,0.6136354187499999,0.6102265640625,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Assistive,stationary_danger,0.9,0.55,0.48,0.58,0.6,0.6018630221875,0.601397266640625,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Assistive,stationary_danger,0.9500000000000001,0.55,0.39,,0.48,0.6018630221875,0.571397266640625,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Assistive,stationary_danger,1.0,0.55,0.63,,0.48,0.6018630221875,0.571397266640625,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Assistive,stationary_danger,1.05,0.55,0.55,0.66,0.55,0.622210964421875,0.6041582233164062,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Assistive,stationary_danger,1.1,0.55,0.39,,0.55,0.622210964421875,0.6041582233164062,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Assistive,stationary_danger,1.1500000000000001,0.55,0.61,,0.55,0.622210964421875,0.6041582233164062,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Assistive,stationary_danger,1.2000000000000002,0.55,0.48,0.54,0.48,0.5934371268742187,0.565077845155664,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Assistive,stationary_danger,1.25,0.55,0.46,,0.48,0.5934371268742187,0.565077845155664,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Assistive,stationary_danger,1.3,0.55,0.34,,0.46,0.5934371268742187,0.5600778451556641,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Assistive,stationary_danger,1.35,0.55,0.53,0.54,0.46,0.5747341324682422,0.5460505993511817,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Assistive,stationary_danger,1.4000000000000001,0.55,0.49,,0.49,0.5747341324682422,0.5535505993511817,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Assistive,stationary_danger,1.4500000000000002,0.55,0.61,,0.53,0.5747341324682422,0.5635505993511817,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Assistive,stationary_danger,1.5,0.55,0.39,0.58,0.49,0.5765771861043575,0.5549328895782681,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Assistive,stationary_danger,1.55,0.55,0.58,,0.58,0.5765771861043575,0.5774328895782681,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Assistive,stationary_danger,1.6,0.55,0.71,,0.58,0.5765771861043575,0.5774328895782681,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Assistive,stationary_danger,1.6500000000000001,0.55,0.6,0.64,0.6,0.5987751709678324,0.5990813782258743,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Assistive,stationary_danger,1.7000000000000002,0.55,,,0.6,0.5987751709678324,0.5990813782258743,STOP,Both current readings missing,False,False,False
+Assistive,stationary_danger,1.75,0.55,0.73,,0.71,0.5987751709678324,0.6265813782258742,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,stationary_danger,1.8,0.55,0.46,0.54,0.6,0.5782038611290911,0.5836528958468183,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,stationary_danger,1.85,0.55,0.54,,0.54,0.5782038611290911,0.5686528958468183,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,stationary_danger,1.9000000000000001,0.55,0.6,,0.54,0.5782038611290911,0.5686528958468183,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,stationary_danger,1.9500000000000002,0.55,0.68,0.64,0.6,0.5998325097339092,0.5998743823004319,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,stationary_danger,2.0,0.55,0.39,,0.6,0.5998325097339092,0.5998743823004319,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,stationary_danger,2.0500000000000003,0.55,0.61,,0.61,0.5998325097339092,0.6023743823004319,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,stationary_danger,2.1,0.55,0.49,0.56,0.49,0.585891131327041,0.5619183484952808,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,stationary_danger,2.15,0.55,0.31,,0.49,0.585891131327041,0.5619183484952808,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,stationary_danger,2.2,0.55,0.5,,0.49,0.585891131327041,0.5619183484952808,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,stationary_danger,2.25,0.55,0.45,0.56,0.45,0.5768292353625766,0.5451219265219325,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,stationary_danger,2.3000000000000003,0.55,0.45,,0.45,0.5768292353625766,0.5451219265219325,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,stationary_danger,2.35,0.55,0.67,,0.45,0.5768292353625766,0.5451219265219325,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,stationary_danger,2.4000000000000004,0.55,0.48,0.72,0.48,0.6269390029856747,0.5902042522392561,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,stationary_danger,2.45,0.55,0.47000000000000003,,0.48,0.6269390029856747,0.5902042522392561,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,stationary_danger,2.5,0.55,,,0.48,0.6269390029856747,0.5902042522392561,STOP,Both current readings missing,False,False,False
+Assistive,stationary_danger,2.5500000000000003,0.55,0.71,0.6,0.48,0.6175103519406886,0.5831327639555164,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,stationary_danger,2.6,0.55,0.37,,0.47000000000000003,0.6175103519406886,0.5806327639555164,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,stationary_danger,2.6500000000000004,0.55,0.54,,0.54,0.6175103519406886,0.5981327639555165,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,stationary_danger,2.7,0.55,0.78,0.58,0.54,0.6043817287614476,0.5882862965710857,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,stationary_danger,2.75,0.55,0.65,,0.65,0.6043817287614476,0.6157862965710856,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,stationary_danger,2.8000000000000003,0.55,1.49,,0.78,0.6043817287614476,0.6482862965710856,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,stationary_danger,2.85,0.55,0.34,0.62,0.65,0.6098481236949409,0.6198860927712057,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,stationary_danger,2.9000000000000004,0.55,0.42,,0.42,0.6098481236949409,0.5623860927712057,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,stationary_danger,2.95,0.55,0.49,,0.42,0.6098481236949409,0.5623860927712057,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,stationary_danger,3.0,0.55,0.39,0.58,0.42,0.5994012804017116,0.5545509603012837,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,stationary_danger,3.0500000000000003,0.55,0.61,,0.49,0.5994012804017116,0.5720509603012838,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,stationary_danger,3.1,0.55,0.5700000000000001,,0.5700000000000001,0.5994012804017116,0.5920509603012838,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,stationary_danger,3.1500000000000004,0.55,0.74,0.56,0.61,0.5856108322611125,0.5917081241958344,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,stationary_danger,3.2,0.55,0.52,,0.5700000000000001,0.5856108322611125,0.5817081241958344,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,stationary_danger,3.25,0.55,0.5,,0.52,0.5856108322611125,0.5692081241958344,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,stationary_danger,3.3000000000000003,0.55,0.66,0.64,0.52,0.6046470409697231,0.5834852807272923,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Assistive,stationary_danger,3.35,0.55,0.4,,0.5,0.6046470409697231,0.5784852807272923,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Assistive,stationary_danger,3.4000000000000004,0.55,0.4,,0.4,0.6046470409697231,0.5534852807272923,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Assistive,stationary_danger,3.45,0.55,0.44,0.72,0.4,0.6450205766303201,0.58376543247274,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Assistive,stationary_danger,3.5,0.55,0.49,,0.44,0.6450205766303201,0.59376543247274,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Assistive,stationary_danger,3.5500000000000003,0.55,,,0.44,0.6450205766303201,0.59376543247274,STOP,Both current readings missing,False,False,False
+Assistive,stationary_danger,3.6,0.55,0.52,0.56,0.49,0.615263374809708,0.583947531107281,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,stationary_danger,3.6500000000000004,0.55,0.92,,0.52,0.615263374809708,0.5914475311072811,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,stationary_danger,3.7,0.55,0.55,,0.55,0.615263374809708,0.598947531107281,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,stationary_danger,3.75,0.55,0.74,0.62,0.74,0.6169211936263103,0.6476908952197327,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,stationary_danger,3.8000000000000003,0.55,0.71,,0.71,0.6169211936263103,0.6401908952197327,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,stationary_danger,3.85,0.55,0.44,,0.71,0.6169211936263103,0.6401908952197327,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,stationary_danger,3.9000000000000004,0.55,0.53,0.52,0.53,0.5829987758571017,0.5697490818928264,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,stationary_danger,3.95,0.55,0.46,,0.46,0.5829987758571017,0.5522490818928263,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,near_threshold,0.0,0.87,0.9,0.9,0.9,0.9,0.9,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,near_threshold,0.05,0.88,0.91,,0.905,0.9,0.9012500000000001,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,near_threshold,0.1,0.89,0.84,,0.9,0.9,0.9,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,near_threshold,0.15000000000000002,0.9,1.1400000000000001,0.84,0.91,0.879,0.88675,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,near_threshold,0.2,0.91,0.98,,0.98,0.879,0.90425,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,near_threshold,0.25,0.92,1.0,,1.0,0.879,0.90925,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,near_threshold,0.30000000000000004,0.93,0.8300000000000001,1.0,0.98,0.92135,0.9360125,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,near_threshold,0.35000000000000003,0.9400000000000001,0.8300000000000001,,0.8300000000000001,0.92135,0.8985125,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,near_threshold,0.4,0.9500000000000001,1.11,,0.8300000000000001,0.92135,0.8985125,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,near_threshold,0.45,0.9600000000000001,0.88,,0.88,0.92135,0.9110125,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,near_threshold,0.5,0.87,0.72,,0.88,0.92135,0.9110125,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,near_threshold,0.55,0.88,0.96,,0.88,0.92135,0.9110125,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,near_threshold,0.6000000000000001,0.89,0.85,0.9,0.85,0.9138775000000001,0.8979081250000002,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,near_threshold,0.65,0.9,0.91,,0.91,0.9138775000000001,0.9129081250000002,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,near_threshold,0.7000000000000001,0.91,0.77,,0.85,0.9138775000000001,0.8979081250000002,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,near_threshold,0.75,0.92,0.96,,0.91,0.9138775000000001,0.9129081250000002,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Assistive,near_threshold,0.8,0.93,0.75,,0.77,0.9138775000000001,0.8779081250000002,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Assistive,near_threshold,0.8500000000000001,0.9400000000000001,0.88,,0.88,0.9138775000000001,0.9054081250000001,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Assistive,near_threshold,0.9,0.9500000000000001,0.92,1.08,0.88,0.972020375,0.94901528125,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Assistive,near_threshold,0.9500000000000001,0.9600000000000001,0.78,,0.88,0.972020375,0.94901528125,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Assistive,near_threshold,1.0,0.87,0.8200000000000001,,0.8200000000000001,0.972020375,0.93401528125,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Assistive,near_threshold,1.05,0.88,0.6900000000000001,0.86,0.78,0.9328132437500001,0.8946099328125001,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Assistive,near_threshold,1.1,0.89,0.6900000000000001,,0.6900000000000001,0.9328132437500001,0.8721099328125,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Assistive,near_threshold,1.1500000000000001,0.9,1.1,,0.6900000000000001,0.9328132437500001,0.8721099328125,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Assistive,near_threshold,1.2000000000000002,0.91,0.8300000000000001,0.88,0.8300000000000001,0.9143286084375,0.893246456328125,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Assistive,near_threshold,1.25,0.92,1.02,,1.02,0.9143286084375,0.940746456328125,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Assistive,near_threshold,1.3,0.93,0.8200000000000001,,0.8300000000000001,0.9143286084375,0.893246456328125,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Assistive,near_threshold,1.35,0.9400000000000001,0.92,0.9400000000000001,0.92,0.923313595484375,0.9224851966132812,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Assistive,near_threshold,1.4000000000000001,0.9500000000000001,1.06,,0.92,0.923313595484375,0.9224851966132812,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Assistive,near_threshold,1.4500000000000002,0.9600000000000001,1.83,,1.06,0.923313595484375,0.9574851966132812,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Assistive,near_threshold,1.5,0.87,0.87,0.96,1.06,0.9361538370648437,0.9671153777986328,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Assistive,near_threshold,1.55,0.88,0.88,,0.88,0.9361538370648437,0.9221153777986327,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Assistive,near_threshold,1.6,0.89,0.9500000000000001,,0.88,0.9361538370648437,0.9221153777986327,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Assistive,near_threshold,1.6500000000000001,0.9,0.79,1.0,0.88,0.9584999940921484,0.9388749955691112,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Assistive,near_threshold,1.7000000000000002,0.91,0.93,,0.93,0.9584999940921484,0.9513749955691113,STOP,At/below stop boundary; confirmation count 35,False,False,False
+Assistive,near_threshold,1.75,0.92,0.27,,0.79,0.9584999940921484,0.9163749955691113,STOP,At/below stop boundary; confirmation count 36,False,False,False
+Assistive,near_threshold,1.8,0.93,1.1,0.9400000000000001,0.93,0.9520249961598966,0.9465187471199225,STOP,At/below stop boundary; confirmation count 37,False,False,False
+Assistive,near_threshold,1.85,0.9400000000000001,0.8,,0.8,0.9520249961598966,0.9140187471199224,STOP,At/below stop boundary; confirmation count 38,False,False,False
+Assistive,near_threshold,1.9000000000000001,0.9500000000000001,0.91,,0.91,0.9520249961598966,0.9415187471199225,STOP,At/below stop boundary; confirmation count 39,False,False,False
+Assistive,near_threshold,1.9500000000000002,0.9600000000000001,0.88,1.04,0.88,0.9828162475039328,0.9571121856279496,STOP,At/below stop boundary; confirmation count 40,False,False,False
+Assistive,near_threshold,2.0,0.87,0.87,,0.88,0.9828162475039328,0.9571121856279496,STOP,At/below stop boundary; confirmation count 41,False,False,False
+Assistive,near_threshold,2.0500000000000003,0.88,0.98,,0.88,0.9828162475039328,0.9571121856279496,STOP,At/below stop boundary; confirmation count 42,False,False,False
+Assistive,near_threshold,2.1,0.89,0.96,0.8,0.96,0.9188305608775562,0.9291229206581672,STOP,At/below stop boundary; confirmation count 43,False,False,False
+Assistive,near_threshold,2.15,0.9,1.08,,0.98,0.9188305608775562,0.9341229206581672,STOP,At/below stop boundary; confirmation count 44,False,False,False
+Assistive,near_threshold,2.2,0.91,0.91,,0.96,0.9188305608775562,0.9291229206581672,STOP,At/below stop boundary; confirmation count 45,False,False,False
+Assistive,near_threshold,2.25,0.92,1.05,0.84,1.05,0.8912398645704116,0.9309298984278087,STOP,At/below stop boundary; confirmation count 46,False,False,False
+Assistive,near_threshold,2.3000000000000003,0.93,0.93,,0.93,0.8912398645704116,0.9009298984278088,STOP,At/below stop boundary; confirmation count 47,False,False,False
+Assistive,near_threshold,2.35,0.9400000000000001,0.6,,0.93,0.8912398645704116,0.9009298984278088,STOP,At/below stop boundary; confirmation count 48,False,False,False
+Assistive,near_threshold,2.4000000000000004,0.9500000000000001,1.07,1.02,0.93,0.9363059119707675,0.9347294339780757,STOP,At/below stop boundary; confirmation count 49,False,False,False
+Assistive,near_threshold,2.45,0.9600000000000001,1.08,,1.07,0.9363059119707675,0.9697294339780758,STOP,At/below stop boundary; confirmation count 50,False,False,False
+Assistive,near_threshold,2.5,0.87,0.13,,1.07,0.9363059119707675,0.9697294339780758,STOP,At/below stop boundary; confirmation count 51,False,False,False
+Assistive,near_threshold,2.5500000000000003,0.88,0.87,,0.87,0.9363059119707675,0.9197294339780757,STOP,At/below stop boundary; confirmation count 52,False,False,False
+Assistive,near_threshold,2.6,0.89,1.47,,0.87,0.9363059119707675,0.9197294339780757,STOP,At/below stop boundary; confirmation count 53,False,False,False
+Assistive,near_threshold,2.6500000000000004,0.9,0.8300000000000001,,0.87,0.9363059119707675,0.9197294339780757,STOP,At/below stop boundary; confirmation count 54,False,False,False
+Assistive,near_threshold,2.7,0.91,1.7,0.86,1.47,0.9095988427809989,1.0496991320857492,STOP,At/below stop boundary; confirmation count 55,False,False,False
+Assistive,near_threshold,2.75,0.92,0.91,,0.91,0.9095988427809989,0.9096991320857493,STOP,At/below stop boundary; confirmation count 56,False,False,False
+Assistive,near_threshold,2.8000000000000003,0.93,1.0,,1.0,0.9095988427809989,0.9321991320857492,STOP,At/below stop boundary; confirmation count 57,False,False,False
+Assistive,near_threshold,2.85,0.9400000000000001,1.01,0.96,1.0,0.9272392478076492,0.9454294358557369,STOP,At/below stop boundary; confirmation count 58,False,False,False
+Assistive,near_threshold,2.9000000000000004,0.9500000000000001,1.0,,1.0,0.9272392478076492,0.9454294358557369,STOP,At/below stop boundary; confirmation count 59,False,False,False
+Assistive,near_threshold,2.95,0.9600000000000001,0.93,,1.0,0.9272392478076492,0.9454294358557369,STOP,At/below stop boundary; confirmation count 60,False,False,False
+Assistive,near_threshold,3.0,0.87,0.81,0.8200000000000001,0.93,0.8897055110749721,0.8997791333062292,STOP,At/below stop boundary; confirmation count 61,False,False,False
+Assistive,near_threshold,3.0500000000000003,0.88,0.88,,0.88,0.8897055110749721,0.8872791333062291,STOP,At/below stop boundary; confirmation count 62,False,False,False
+Assistive,near_threshold,3.1,0.89,0.9,,0.88,0.8897055110749721,0.8872791333062291,STOP,At/below stop boundary; confirmation count 63,False,False,False
+Assistive,near_threshold,3.1500000000000004,0.9,,0.9400000000000001,0.88,0.9073085821987319,0.9004814366490489,STOP,At/below stop boundary; confirmation count 64,False,False,False
+Assistive,near_threshold,3.2,0.91,,,0.88,0.9073085821987319,0.9004814366490489,STOP,Both current readings missing,False,False,False
+Assistive,near_threshold,3.25,0.92,1.06,,0.9,0.9073085821987319,0.9054814366490489,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,near_threshold,3.3000000000000003,0.93,0.99,,0.99,0.9073085821987319,0.9279814366490489,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,near_threshold,3.35,0.9400000000000001,0.9500000000000001,,0.99,0.9073085821987319,0.9279814366490489,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,near_threshold,3.4000000000000004,0.9500000000000001,0.9400000000000001,,0.9500000000000001,0.9073085821987319,0.917981436649049,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,near_threshold,3.45,0.9600000000000001,0.8200000000000001,1.02,0.9400000000000001,0.9467505784291758,0.9450629338218818,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,near_threshold,3.5,0.87,0.91,,0.91,0.9467505784291758,0.9375629338218818,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,near_threshold,3.5500000000000003,0.88,0.75,,0.8200000000000001,0.9467505784291758,0.9150629338218819,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,near_threshold,3.6,0.89,0.85,0.92,0.85,0.9373878759789642,0.9155409069842232,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,near_threshold,3.6500000000000004,0.9,0.99,,0.85,0.9373878759789642,0.9155409069842232,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,near_threshold,3.7,0.91,0.78,,0.85,0.9373878759789642,0.9155409069842232,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,near_threshold,3.75,0.92,1.03,1.02,0.99,0.9663021193863267,0.9722265895397451,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,near_threshold,3.8000000000000003,0.93,0.97,,0.97,0.9663021193863267,0.9672265895397449,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,near_threshold,3.85,0.9400000000000001,1.27,,1.03,0.9663021193863267,0.9822265895397451,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,near_threshold,3.9000000000000004,0.9500000000000001,1.11,0.9400000000000001,1.11,0.9570963776011123,0.9953222832008344,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,near_threshold,3.95,0.9600000000000001,0.8200000000000001,,1.11,0.9570963776011123,0.9953222832008344,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,fast_approach,0.0,2.8,2.82,,2.82,,2.82,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.05,2.76,2.8000000000000003,,2.81,,2.81,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.1,2.7199999999999998,2.2800000000000002,,2.8000000000000003,,2.8000000000000003,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.15000000000000002,2.6799999999999997,2.91,2.8000000000000003,2.8000000000000003,2.8000000000000003,2.8000000000000003,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.2,2.6399999999999997,2.65,,2.65,2.8000000000000003,2.7625,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.25,2.5999999999999996,2.73,,2.73,2.8000000000000003,2.7825,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.30000000000000004,2.5599999999999996,2.63,2.58,2.65,2.7230000000000003,2.70475,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.35000000000000003,2.5199999999999996,2.43,,2.63,2.7230000000000003,2.69975,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.4,2.48,2.64,,2.63,2.7230000000000003,2.69975,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.45,2.44,2.43,2.42,2.43,2.61695,2.5702125000000002,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.5,2.4,2.57,,2.57,2.61695,2.6052125,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.55,2.36,2.54,,2.54,2.61695,2.5977125,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.6000000000000001,2.32,2.13,2.42,2.54,2.5480175000000003,2.546013125,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.65,2.28,2.37,,2.37,2.5480175000000003,2.5035131250000004,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.7000000000000001,2.2399999999999998,2.14,,2.14,2.5480175000000003,2.4460131250000003,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.75,2.1999999999999997,2.1,2.2800000000000002,2.14,2.4542113750000003,2.3756585312500005,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.8,2.1599999999999997,2.24,,2.14,2.4542113750000003,2.3756585312500005,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.8500000000000001,2.1199999999999997,2.0300000000000002,,2.1,2.4542113750000003,2.3656585312500003,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.9,2.08,2.02,2.12,2.0300000000000002,2.33723739375,2.2604280453125005,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,0.9500000000000001,2.04,1.97,,2.02,2.33723739375,2.2579280453125,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.0,1.9999999999999998,2.18,,2.02,2.33723739375,2.2579280453125,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.05,1.96,2.1,1.94,2.1,2.1982043059375003,2.1736532294531252,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.1,1.92,1.87,,2.1,2.1982043059375003,2.1736532294531252,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.1500000000000001,1.88,1.95,,1.95,2.1982043059375003,2.136153229453125,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.2000000000000002,1.8399999999999999,2.59,1.86,1.95,2.079832798859375,2.0473745991445313,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.25,1.7999999999999998,1.6600000000000001,,1.95,2.079832798859375,2.0473745991445313,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.3,1.7599999999999998,1.56,,1.6600000000000001,2.079832798859375,1.9748745991445316,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.35,1.7199999999999998,1.73,1.74,1.6600000000000001,1.960891319258594,1.8856684894439455,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.4000000000000001,1.6799999999999997,1.82,,1.73,1.960891319258594,1.9031684894439453,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.4500000000000002,1.64,1.69,,1.73,1.960891319258594,1.9031684894439453,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.5,1.5999999999999999,1.72,1.6400000000000001,1.72,1.8485793575180862,1.8164345181385646,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.55,1.5599999999999998,1.58,,1.69,1.8485793575180862,1.8089345181385648,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.6,1.5199999999999998,1.45,,1.58,1.8485793575180862,1.7814345181385647,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.6500000000000001,1.4799999999999998,1.54,1.42,1.54,1.698576582386756,1.658932436790067,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.7000000000000002,1.4399999999999997,1.47,,1.47,1.698576582386756,1.641432436790067,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.75,1.3999999999999997,1.34,,1.47,1.698576582386756,1.641432436790067,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.8,1.3599999999999999,1.56,1.42,1.47,1.6010747785513912,1.5683060839135434,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.85,1.3199999999999998,1.3800000000000001,,1.3800000000000001,1.6010747785513912,1.5458060839135435,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.9000000000000001,1.2799999999999998,1.3,,1.3800000000000001,1.6010747785513912,1.5458060839135435,MOVE,Outside caution band,False,False,False
+Assistive,fast_approach,1.9500000000000002,1.2399999999999998,1.33,1.32,1.33,1.5026986060584042,1.4595239545438032,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.0,1.1999999999999997,1.32,,1.32,1.5026986060584042,1.4570239545438033,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.0500000000000003,1.1599999999999997,1.29,,1.32,1.5026986060584042,1.4570239545438033,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.1,1.1199999999999999,1.16,1.1,1.29,1.3617540939379627,1.343815570453472,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.15,1.0799999999999998,0.99,,1.16,1.3617540939379627,1.311315570453472,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.2,1.0399999999999998,1.2,,1.16,1.3617540939379627,1.311315570453472,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.25,0.9999999999999998,1.02,1.04,1.02,1.2491401610596757,1.1918551207947568,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.3000000000000003,0.9599999999999997,0.9,,1.02,1.2491401610596757,1.1918551207947568,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.35,0.9199999999999997,0.97,,0.97,1.2491401610596757,1.1793551207947568,SLOW,Inside caution band,False,False,False
+Assistive,fast_approach,2.4000000000000004,0.8799999999999999,0.46,0.9400000000000001,0.9,1.1409411046887892,1.080705828516592,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,fast_approach,2.45,0.8399999999999999,0.93,,0.93,1.1409411046887892,1.0882058285165919,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,fast_approach,2.5,0.7999999999999998,0.75,,0.75,1.1409411046887892,1.043205828516592,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,fast_approach,2.5500000000000003,0.7599999999999998,0.97,0.8,0.93,1.021611718047713,0.9987087885357847,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,fast_approach,2.6,0.7199999999999998,0.59,,0.75,1.021611718047713,0.9537087885357847,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,fast_approach,2.6500000000000004,0.6799999999999997,0.64,,0.64,1.021611718047713,0.9262087885357847,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,fast_approach,2.7,0.6399999999999997,0.6,0.72,0.6,0.9160476167310134,0.83703571254826,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,fast_approach,2.75,0.5999999999999996,0.49,,0.6,0.9160476167310134,0.83703571254826,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,fast_approach,2.8000000000000003,0.5599999999999996,0.51,,0.51,0.9160476167310134,0.81453571254826,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,fast_approach,2.85,0.5199999999999996,0.4,0.54,0.49,0.7844309508751588,0.7108232131563692,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,fast_approach,2.9000000000000004,0.48,0.48,,0.48,0.7844309508751588,0.7083232131563691,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,fast_approach,2.95,0.43999999999999995,0.58,,0.48,0.7844309508751588,0.7083232131563691,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,fast_approach,3.0,0.3999999999999999,0.27,0.58,0.48,0.7128801180688532,0.6546600885516399,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,fast_approach,3.0500000000000003,0.3599999999999999,0.38,,0.38,0.7128801180688532,0.6296600885516399,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,fast_approach,3.1,0.35,0.39,,0.38,0.7128801180688532,0.6296600885516399,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,fast_approach,3.1500000000000004,0.35,0.35000000000000003,0.34,0.38,0.5823720767447547,0.531779057558566,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Assistive,fast_approach,3.2,0.35,,,0.38,0.5823720767447547,0.531779057558566,STOP,Both current readings missing,False,False,False
+Assistive,fast_approach,3.25,0.35,0.55,,0.39,0.5823720767447547,0.534279057558566,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,fast_approach,3.3000000000000003,0.35,0.47000000000000003,0.36,0.47000000000000003,0.5045418498840906,0.4959063874130679,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,fast_approach,3.35,0.35,0.39,,0.47000000000000003,0.5045418498840906,0.4959063874130679,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,fast_approach,3.4000000000000004,0.35,0.33,,0.39,0.5045418498840906,0.4759063874130679,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,fast_approach,3.45,0.35,0.44,0.46,0.39,0.48895220242465887,0.4642141518184941,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,fast_approach,3.5,0.35,0.42,,0.42,0.48895220242465887,0.47171415181849413,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,fast_approach,3.5500000000000003,0.35,0.53,,0.44,0.48895220242465887,0.47671415181849414,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,fast_approach,3.6,0.35,0.15,0.3,0.42,0.42281893157602823,0.42211419868202116,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,fast_approach,3.6500000000000004,0.35,0.43,,0.43,0.42281893157602823,0.42461419868202116,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,fast_approach,3.7,0.35,0.45,,0.43,0.42281893157602823,0.42461419868202116,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,fast_approach,3.75,0.35,0.26,0.32,0.43,0.38683230552441833,0.39762422914331375,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,fast_approach,3.8000000000000003,0.35,0.39,,0.39,0.38683230552441833,0.38762422914331374,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,fast_approach,3.85,0.35,0.52,,0.39,0.38683230552441833,0.38762422914331374,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,fast_approach,3.9000000000000004,0.35,1.18,0.38,0.52,0.3844409985908719,0.4183307489431539,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,fast_approach,3.95,0.35,0.46,,0.52,0.3844409985908719,0.4183307489431539,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,receding,0.0,0.55,0.46,0.52,0.46,0.52,0.505,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,receding,0.05,0.5750000000000001,0.48,,0.47,0.52,0.5075000000000001,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,receding,0.1,0.6000000000000001,0.45,,0.46,0.52,0.505,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,receding,0.15000000000000002,0.625,0.53,0.64,0.48,0.562,0.5415000000000001,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,receding,0.2,0.65,0.52,,0.52,0.562,0.5515000000000001,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,receding,0.25,0.675,0.79,,0.53,0.562,0.554,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,receding,0.30000000000000004,0.7000000000000001,1.01,0.66,0.79,0.5963,0.644725,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,receding,0.35000000000000003,0.7250000000000001,0.58,,0.79,0.5963,0.644725,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,receding,0.4,0.75,0.75,,0.75,0.5963,0.634725,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,receding,0.45,0.775,0.63,0.78,0.63,0.660595,0.6529462500000001,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,receding,0.5,0.8,,,0.63,0.660595,0.6529462500000001,STOP,Both current readings missing,False,False,False
+Assistive,receding,0.55,0.8250000000000001,0.77,,0.75,0.660595,0.6829462500000001,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,receding,0.6000000000000001,0.8500000000000001,0.67,0.88,0.67,0.73738675,0.7205400625,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,receding,0.65,0.875,0.87,,0.77,0.73738675,0.7455400625,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,receding,0.7000000000000001,0.9000000000000001,0.85,,0.85,0.73738675,0.7655400625000001,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,receding,0.75,0.925,,,0.85,0.73738675,0.7655400625000001,STOP,Both current readings missing,False,False,False
+Assistive,receding,0.8,0.9500000000000001,0.84,,0.85,0.73738675,0.7655400625000001,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,receding,0.8500000000000001,0.9750000000000001,1.02,,0.85,0.73738675,0.7655400625000001,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,receding,0.9,1.0,0.9500000000000001,0.9400000000000001,0.9500000000000001,0.8083013875,0.843726040625,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,receding,0.9500000000000001,1.0250000000000001,1.05,,1.02,0.8083013875,0.861226040625,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,receding,1.0,1.05,0.9,,0.9500000000000001,0.8083013875,0.843726040625,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,receding,1.05,1.0750000000000002,1.04,1.08,1.04,0.9033959018750001,0.93754692640625,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,receding,1.1,1.1,0.9400000000000001,,0.9400000000000001,0.9033959018750001,0.91254692640625,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,receding,1.1500000000000001,1.125,1.3,,1.04,0.9033959018750001,0.93754692640625,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,receding,1.2000000000000002,1.1500000000000001,1.1400000000000001,1.1400000000000001,1.1400000000000001,0.9862073362187501,1.0246555021640626,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,receding,1.25,1.175,,,1.1400000000000001,0.9862073362187501,1.0246555021640626,STOP,Both current readings missing,False,False,False
+Assistive,receding,1.3,1.2000000000000002,1.1500000000000001,,1.1500000000000001,0.9862073362187501,1.0271555021640626,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,receding,1.35,1.225,1.3,1.2,1.1500000000000001,1.0610347685421875,1.0832760764066407,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,receding,1.4000000000000001,1.25,1.31,,1.3,1.0610347685421875,1.1207760764066406,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,receding,1.4500000000000002,1.2750000000000001,1.3900000000000001,,1.31,1.0610347685421875,1.1232760764066407,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,receding,1.5,1.3,1.09,1.26,1.31,1.1306725995524218,1.1755044496643166,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.55,1.3250000000000002,1.36,,1.36,1.1306725995524218,1.1880044496643165,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.6,1.35,,,1.36,1.1306725995524218,1.1880044496643165,STOP,Both current readings missing,False,False,False
+Assistive,receding,1.6500000000000001,1.375,1.48,1.44,1.36,1.2389371897090742,1.2692028922818057,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.7000000000000002,1.4000000000000001,1.12,,1.36,1.2389371897090742,1.2692028922818057,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.75,1.425,1.6400000000000001,,1.48,1.2389371897090742,1.2992028922818055,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.8,1.4500000000000002,1.49,1.3800000000000001,1.49,1.2883091733108982,1.3387318799831738,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.85,1.475,1.46,,1.49,1.2883091733108982,1.3387318799831738,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.9000000000000001,1.5,1.29,,1.46,1.2883091733108982,1.3312318799831737,SLOW,Inside caution band,False,False,False
+Assistive,receding,1.9500000000000002,1.5250000000000001,1.43,1.56,1.43,1.3834009626520838,1.3950507219890627,SLOW,Inside caution band,False,False,False
+Assistive,receding,2.0,1.55,,,1.43,1.3834009626520838,1.3950507219890627,STOP,Both current readings missing,False,False,False
+Assistive,receding,2.0500000000000003,1.5750000000000002,1.58,,1.43,1.3834009626520838,1.3950507219890627,SLOW,Inside caution band,False,False,False
+Assistive,receding,2.1,1.6,1.37,1.6,1.43,1.4592106257238544,1.4519079692928907,SLOW,Inside caution band,False,False,False
+Assistive,receding,2.15,1.625,1.58,,1.58,1.4592106257238544,1.4894079692928908,SLOW,Inside caution band,False,False,False
+Assistive,receding,2.2,1.6500000000000001,1.74,,1.58,1.4592106257238544,1.4894079692928908,SLOW,Inside caution band,False,False,False
+Assistive,receding,2.25,1.675,,1.7,1.58,1.5434869067205055,1.5526151800403791,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.3000000000000003,1.7000000000000002,1.5,,1.58,1.5434869067205055,1.5526151800403791,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.35,1.725,,,1.58,1.5434869067205055,1.5526151800403791,STOP,Both current readings missing,False,True,False
+Assistive,receding,2.4000000000000004,1.7500000000000002,1.8,1.8,1.74,1.6332664893683284,1.6599498670262465,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.45,1.7750000000000001,1.75,,1.75,1.6332664893683284,1.6624498670262464,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.5,1.8,1.8900000000000001,,1.8,1.6332664893683284,1.6749498670262464,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.5500000000000003,1.8250000000000002,1.77,1.8800000000000001,1.77,1.7196232180894135,1.73221741356706,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.6,1.85,1.81,,1.81,1.7196232180894135,1.7422174135670603,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.6500000000000004,1.8750000000000002,1.83,,1.81,1.7196232180894135,1.7422174135670603,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.7,1.9000000000000001,1.84,1.94,1.83,1.796755091758119,1.8050663188185894,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.75,1.925,1.79,,1.83,1.796755091758119,1.8050663188185894,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.8000000000000003,1.9500000000000002,1.79,,1.79,1.796755091758119,1.7950663188185894,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.85,1.975,2.14,1.98,1.79,1.8608908096427772,1.843168107232083,MOVE,Outside caution band,False,False,False
+Assistive,receding,2.9000000000000004,2.0,,,1.79,1.8608908096427772,1.843168107232083,STOP,Both current readings missing,False,True,False
+Assistive,receding,2.95,2.0250000000000004,2.07,,2.07,1.8608908096427772,1.913168107232083,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.0,2.05,2.24,2.12,2.14,1.9515790262678052,1.998684269700854,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.0500000000000003,2.075,2.14,,2.14,1.9515790262678052,1.998684269700854,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.1,2.1,2.04,,2.14,1.9515790262678052,1.998684269700854,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.1500000000000004,2.125,2.08,2.1,2.08,2.0035263670740733,2.022644775305555,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.2,2.1500000000000004,2.4,,2.08,2.0035263670740733,2.022644775305555,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.25,2.175,2.14,,2.14,2.0035263670740733,2.037644775305555,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.3000000000000003,2.2,2.02,2.18,2.14,2.0652921385981475,2.083969103948611,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.35,2.225,2.2800000000000002,,2.14,2.0652921385981475,2.083969103948611,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.4000000000000004,2.25,2.13,,2.13,2.0652921385981475,2.081469103948611,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.45,2.2750000000000004,2.43,2.32,2.2800000000000002,2.154439890088796,2.185829917566597,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.5,2.3,2.42,,2.42,2.154439890088796,2.220829917566597,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.5500000000000003,2.325,2.43,,2.43,2.154439890088796,2.223329917566597,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.6,2.35,,2.44,2.43,2.2543859285577175,2.298289446418288,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.6500000000000004,2.375,2.5,,2.43,2.2543859285577175,2.298289446418288,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.7,2.4000000000000004,2.37,,2.43,2.2543859285577175,2.298289446418288,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.75,2.425,2.41,2.42,2.41,2.312350853562516,2.336763140171887,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.8000000000000003,2.45,2.58,,2.41,2.312350853562516,2.336763140171887,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.85,2.475,2.2,,2.41,2.312350853562516,2.336763140171887,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.9000000000000004,2.5,2.66,2.58,2.58,2.4060280548156356,2.4495210411117267,MOVE,Outside caution band,False,False,False
+Assistive,receding,3.95,2.5250000000000004,2.2800000000000002,,2.2800000000000002,2.4060280548156356,2.374521041111727,MOVE,Outside caution band,False,False,False
+Assistive,conflicting_sensors,0.0,1.0,1.03,1.0,1.03,1.0,1.0075,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,conflicting_sensors,0.05,1.0,0.96,,0.995,1.0,0.99875,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,conflicting_sensors,0.1,1.0,1.0,,1.0,1.0,1.0,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,conflicting_sensors,0.15000000000000002,1.0,0.99,,0.99,1.0,0.9975,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,conflicting_sensors,0.2,1.0,1.03,,1.0,1.0,1.0,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,conflicting_sensors,0.25,1.0,0.87,,0.99,1.0,0.9975,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,conflicting_sensors,0.30000000000000004,1.0,1.11,1.06,1.03,1.021,1.02325,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,conflicting_sensors,0.35000000000000003,1.0,1.1,,1.1,1.021,1.04075,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,conflicting_sensors,0.4,1.0,0.9400000000000001,,1.1,1.021,1.04075,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,conflicting_sensors,0.45,1.0,0.87,1.02,0.9400000000000001,1.0206499999999998,1.0004875,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,conflicting_sensors,0.5,1.0,0.97,,0.9400000000000001,1.0206499999999998,1.0004875,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,conflicting_sensors,0.55,1.0,1.1,,0.97,1.0206499999999998,1.0079874999999998,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,conflicting_sensors,0.6000000000000001,1.0,1.1,1.0,1.1,1.0134225,1.035066875,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,conflicting_sensors,0.65,1.0,1.1,,1.1,1.0134225,1.035066875,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,conflicting_sensors,0.7000000000000001,1.0,,,1.1,1.0134225,1.035066875,STOP,Both current readings missing,False,False,False
+Assistive,conflicting_sensors,0.75,1.0,1.0,1.02,1.1,1.0157246249999998,1.03679346875,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,conflicting_sensors,0.8,1.0,0.6799999999999999,,1.0,1.0157246249999998,1.0117934687499999,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,conflicting_sensors,0.8500000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.0157246249999998,0.9317934687499998,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,conflicting_sensors,0.9,1.0,0.6799999999999999,1.28,0.6799999999999999,1.10822100625,1.0011657546875,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,conflicting_sensors,0.9500000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.10822100625,1.0011657546875,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,conflicting_sensors,1.0,1.0,0.6799999999999999,,0.6799999999999999,1.10822100625,1.0011657546875,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,conflicting_sensors,1.05,1.0,0.6799999999999999,1.28,0.6799999999999999,1.1683436540624998,1.046257740546875,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,conflicting_sensors,1.1,1.0,0.6799999999999999,,0.6799999999999999,1.1683436540624998,1.046257740546875,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,conflicting_sensors,1.1500000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.1683436540624998,1.046257740546875,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,conflicting_sensors,1.2000000000000002,1.0,0.6799999999999999,1.28,0.6799999999999999,1.207423375140625,1.0755675313554687,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,conflicting_sensors,1.25,1.0,0.6799999999999999,,0.6799999999999999,1.207423375140625,1.0755675313554687,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,conflicting_sensors,1.3,1.0,0.6799999999999999,,0.6799999999999999,1.207423375140625,1.0755675313554687,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,conflicting_sensors,1.35,1.0,0.6799999999999999,1.28,0.6799999999999999,1.232825193841406,1.0946188953810545,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,conflicting_sensors,1.4000000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.232825193841406,1.0946188953810545,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,conflicting_sensors,1.4500000000000002,1.0,0.6799999999999999,,0.6799999999999999,1.232825193841406,1.0946188953810545,STOP,At/below stop boundary; confirmation count 15,False,False,False
+Assistive,conflicting_sensors,1.5,1.0,0.6799999999999999,1.28,0.6799999999999999,1.249336375996914,1.1070022819976855,STOP,At/below stop boundary; confirmation count 16,False,False,False
+Assistive,conflicting_sensors,1.55,1.0,0.6799999999999999,,0.6799999999999999,1.249336375996914,1.1070022819976855,STOP,At/below stop boundary; confirmation count 17,False,False,False
+Assistive,conflicting_sensors,1.6,1.0,0.6799999999999999,,0.6799999999999999,1.249336375996914,1.1070022819976855,STOP,At/below stop boundary; confirmation count 18,False,False,False
+Assistive,conflicting_sensors,1.6500000000000001,1.0,0.6799999999999999,1.28,0.6799999999999999,1.260068644397994,1.1150514832984955,STOP,At/below stop boundary; confirmation count 19,False,False,False
+Assistive,conflicting_sensors,1.7000000000000002,1.0,0.6799999999999999,,0.6799999999999999,1.260068644397994,1.1150514832984955,STOP,At/below stop boundary; confirmation count 20,False,False,False
+Assistive,conflicting_sensors,1.75,1.0,0.6799999999999999,,0.6799999999999999,1.260068644397994,1.1150514832984955,STOP,At/below stop boundary; confirmation count 21,False,False,False
+Assistive,conflicting_sensors,1.8,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2670446188586961,1.120283464144022,STOP,At/below stop boundary; confirmation count 22,False,False,False
+Assistive,conflicting_sensors,1.85,1.0,0.6799999999999999,,0.6799999999999999,1.2670446188586961,1.120283464144022,STOP,At/below stop boundary; confirmation count 23,False,False,False
+Assistive,conflicting_sensors,1.9000000000000001,1.0,0.6799999999999999,,0.6799999999999999,1.2670446188586961,1.120283464144022,STOP,At/below stop boundary; confirmation count 24,False,False,False
+Assistive,conflicting_sensors,1.9500000000000002,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2715790022581523,1.1236842516936143,STOP,At/below stop boundary; confirmation count 25,False,False,False
+Assistive,conflicting_sensors,2.0,1.0,0.6799999999999999,,0.6799999999999999,1.2715790022581523,1.1236842516936143,STOP,At/below stop boundary; confirmation count 26,False,False,False
+Assistive,conflicting_sensors,2.0500000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2715790022581523,1.1236842516936143,STOP,At/below stop boundary; confirmation count 27,False,False,False
+Assistive,conflicting_sensors,2.1,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2745263514677991,1.1258947636008494,STOP,At/below stop boundary; confirmation count 28,False,False,False
+Assistive,conflicting_sensors,2.15,1.0,0.6799999999999999,,0.6799999999999999,1.2745263514677991,1.1258947636008494,STOP,At/below stop boundary; confirmation count 29,False,False,False
+Assistive,conflicting_sensors,2.2,1.0,0.6799999999999999,,0.6799999999999999,1.2745263514677991,1.1258947636008494,STOP,At/below stop boundary; confirmation count 30,False,False,False
+Assistive,conflicting_sensors,2.25,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2764421284540695,1.1273315963405521,STOP,At/below stop boundary; confirmation count 31,False,False,False
+Assistive,conflicting_sensors,2.3000000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2764421284540695,1.1273315963405521,STOP,At/below stop boundary; confirmation count 32,False,False,False
+Assistive,conflicting_sensors,2.35,1.0,0.6799999999999999,,0.6799999999999999,1.2764421284540695,1.1273315963405521,STOP,At/below stop boundary; confirmation count 33,False,False,False
+Assistive,conflicting_sensors,2.4000000000000004,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2776873834951452,1.1282655376213588,STOP,At/below stop boundary; confirmation count 34,False,False,False
+Assistive,conflicting_sensors,2.45,1.0,0.6799999999999999,,0.6799999999999999,1.2776873834951452,1.1282655376213588,STOP,At/below stop boundary; confirmation count 35,False,False,False
+Assistive,conflicting_sensors,2.5,1.0,0.6799999999999999,,0.6799999999999999,1.2776873834951452,1.1282655376213588,STOP,At/below stop boundary; confirmation count 36,False,False,False
+Assistive,conflicting_sensors,2.5500000000000003,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2784967992718443,1.1288725994538833,STOP,At/below stop boundary; confirmation count 37,False,False,False
+Assistive,conflicting_sensors,2.6,1.0,0.6799999999999999,,0.6799999999999999,1.2784967992718443,1.1288725994538833,STOP,At/below stop boundary; confirmation count 38,False,False,False
+Assistive,conflicting_sensors,2.6500000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.2784967992718443,1.1288725994538833,STOP,At/below stop boundary; confirmation count 39,False,False,False
+Assistive,conflicting_sensors,2.7,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2790229195266987,1.129267189645024,STOP,At/below stop boundary; confirmation count 40,False,False,False
+Assistive,conflicting_sensors,2.75,1.0,0.6799999999999999,,0.6799999999999999,1.2790229195266987,1.129267189645024,STOP,At/below stop boundary; confirmation count 41,False,False,False
+Assistive,conflicting_sensors,2.8000000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2790229195266987,1.129267189645024,STOP,At/below stop boundary; confirmation count 42,False,False,False
+Assistive,conflicting_sensors,2.85,1.0,0.6799999999999999,1.28,0.6799999999999999,1.279364897692354,1.1295236732692655,STOP,At/below stop boundary; confirmation count 43,False,False,False
+Assistive,conflicting_sensors,2.9000000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.279364897692354,1.1295236732692655,STOP,At/below stop boundary; confirmation count 44,False,False,False
+Assistive,conflicting_sensors,2.95,1.0,0.6799999999999999,,0.6799999999999999,1.279364897692354,1.1295236732692655,STOP,At/below stop boundary; confirmation count 45,False,False,False
+Assistive,conflicting_sensors,3.0,1.0,0.6799999999999999,1.28,0.6799999999999999,1.27958718350003,1.1296903876250226,STOP,At/below stop boundary; confirmation count 46,False,False,False
+Assistive,conflicting_sensors,3.0500000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.27958718350003,1.1296903876250226,STOP,At/below stop boundary; confirmation count 47,False,False,False
+Assistive,conflicting_sensors,3.1,1.0,0.6799999999999999,,0.6799999999999999,1.27958718350003,1.1296903876250226,STOP,At/below stop boundary; confirmation count 48,False,False,False
+Assistive,conflicting_sensors,3.1500000000000004,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2797316692750196,1.1297987519562647,STOP,At/below stop boundary; confirmation count 49,False,False,False
+Assistive,conflicting_sensors,3.2,1.0,0.6799999999999999,,0.6799999999999999,1.2797316692750196,1.1297987519562647,STOP,At/below stop boundary; confirmation count 50,False,False,False
+Assistive,conflicting_sensors,3.25,1.0,0.6799999999999999,,0.6799999999999999,1.2797316692750196,1.1297987519562647,STOP,At/below stop boundary; confirmation count 51,False,False,False
+Assistive,conflicting_sensors,3.3000000000000003,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2798255850287628,1.129869188771572,STOP,At/below stop boundary; confirmation count 52,False,False,False
+Assistive,conflicting_sensors,3.35,1.0,0.6799999999999999,,0.6799999999999999,1.2798255850287628,1.129869188771572,STOP,At/below stop boundary; confirmation count 53,False,False,False
+Assistive,conflicting_sensors,3.4000000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.2798255850287628,1.129869188771572,STOP,At/below stop boundary; confirmation count 54,False,False,False
+Assistive,conflicting_sensors,3.45,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2798866302686958,1.1299149727015219,STOP,At/below stop boundary; confirmation count 55,False,False,False
+Assistive,conflicting_sensors,3.5,1.0,0.6799999999999999,,0.6799999999999999,1.2798866302686958,1.1299149727015219,STOP,At/below stop boundary; confirmation count 56,False,False,False
+Assistive,conflicting_sensors,3.5500000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.2798866302686958,1.1299149727015219,STOP,At/below stop boundary; confirmation count 57,False,False,False
+Assistive,conflicting_sensors,3.6,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2799263096746523,1.1299447322559892,STOP,At/below stop boundary; confirmation count 58,False,False,False
+Assistive,conflicting_sensors,3.6500000000000004,1.0,0.6799999999999999,,0.6799999999999999,1.2799263096746523,1.1299447322559892,STOP,At/below stop boundary; confirmation count 59,False,False,False
+Assistive,conflicting_sensors,3.7,1.0,0.6799999999999999,,0.6799999999999999,1.2799263096746523,1.1299447322559892,STOP,At/below stop boundary; confirmation count 60,False,False,False
+Assistive,conflicting_sensors,3.75,1.0,0.6799999999999999,1.28,0.6799999999999999,1.279952101288524,1.129964075966393,STOP,At/below stop boundary; confirmation count 61,False,False,False
+Assistive,conflicting_sensors,3.8000000000000003,1.0,0.6799999999999999,,0.6799999999999999,1.279952101288524,1.129964075966393,STOP,At/below stop boundary; confirmation count 62,False,False,False
+Assistive,conflicting_sensors,3.85,1.0,0.6799999999999999,,0.6799999999999999,1.279952101288524,1.129964075966393,STOP,At/below stop boundary; confirmation count 63,False,False,False
+Assistive,conflicting_sensors,3.9000000000000004,1.0,0.6799999999999999,1.28,0.6799999999999999,1.2799688658375405,1.1299766493781553,STOP,At/below stop boundary; confirmation count 64,False,False,False
+Assistive,conflicting_sensors,3.95,1.0,0.6799999999999999,,0.6799999999999999,1.2799688658375405,1.1299766493781553,STOP,At/below stop boundary; confirmation count 65,False,False,False
+Assistive,dropout_burst,0.0,1.4,1.3800000000000001,1.36,1.3800000000000001,1.36,1.365,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.05,1.4,1.46,,1.42,1.36,1.375,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.1,1.4,1.36,,1.3800000000000001,1.36,1.365,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.15000000000000002,1.4,1.48,1.52,1.46,1.416,1.4269999999999998,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.2,1.4,1.35,,1.36,1.416,1.402,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.25,1.4,1.31,,1.35,1.416,1.3994999999999997,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.30000000000000004,1.4,1.43,1.3800000000000001,1.35,1.4034,1.39005,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.35000000000000003,1.4,1.43,,1.43,1.4034,1.41005,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.4,1.4,1.44,,1.43,1.4034,1.41005,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.45,1.4,1.28,1.46,1.43,1.42321,1.4249075,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.5,1.4,2.04,,1.44,1.42321,1.4274075000000002,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.55,1.4,1.3800000000000001,,1.3800000000000001,1.42321,1.4124075,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.6000000000000001,1.4,1.11,1.5,1.3800000000000001,1.4500864999999998,1.432564875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.65,1.4,1.56,,1.3800000000000001,1.4500864999999998,1.432564875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.7000000000000001,1.4,0.6900000000000001,,1.11,1.4500864999999998,1.365064875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.75,1.4,1.16,1.3800000000000001,1.16,1.4255562249999998,1.35916716875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.8,1.4,1.34,,1.16,1.4255562249999998,1.35916716875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.8500000000000001,1.4,1.28,,1.28,1.4255562249999998,1.38916716875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.9,1.4,1.54,1.42,1.34,1.4236115462499999,1.4027086596874998,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,0.9500000000000001,1.4,1.25,,1.28,1.4236115462499999,1.3877086596875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.0,1.4,1.33,,1.33,1.4236115462499999,1.4002086596874999,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.05,1.4,1.4000000000000001,1.42,1.33,1.4223475050624999,1.399260628796875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.1,1.4,1.43,,1.4000000000000001,1.4223475050624999,1.416760628796875,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.1500000000000001,1.4,1.48,,1.43,1.4223475050624999,1.4242606287968749,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.2000000000000002,1.4,1.24,1.52,1.43,1.4565258782906247,1.4498944087179684,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.25,1.4,1.25,,1.25,1.4565258782906247,1.4048944087179684,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.3,1.4,1.4000000000000001,,1.25,1.4565258782906247,1.4048944087179684,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.35,1.4,1.25,1.34,1.25,1.415741820888906,1.3743063656666796,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.4000000000000001,1.4,1.36,,1.36,1.415741820888906,1.4018063656666797,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.4500000000000002,1.4,1.6600000000000001,,1.36,1.415741820888906,1.4018063656666797,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,1.5,1.4,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.55,1.4,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.6,1.4,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.6500000000000001,1.4,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.7000000000000002,1.4,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.75,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.8,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.85,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.9000000000000001,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,1.9500000000000002,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.0,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.0500000000000003,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.1,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.15,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.2,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.25,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.3000000000000003,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.35,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.4000000000000004,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.45,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.5,0.65,,,1.36,1.415741820888906,1.4018063656666797,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,2.5500000000000003,0.65,,0.7000000000000001,1.36,1.165232183577789,1.2139241376833418,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,2.6,0.65,0.56,,1.36,1.165232183577789,1.2139241376833418,SLOW,Inside caution band,False,False,False
+Assistive,dropout_burst,2.6500000000000004,0.65,0.48,,0.56,1.165232183577789,1.0139241376833419,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,dropout_burst,2.7,0.65,0.85,0.72,0.56,1.0094009193255629,0.8970506894941722,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,dropout_burst,2.75,0.65,0.6900000000000001,,0.6900000000000001,1.0094009193255629,0.9295506894941722,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,dropout_burst,2.8000000000000003,0.65,0.68,,0.6900000000000001,1.0094009193255629,0.9295506894941722,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,dropout_burst,2.85,0.65,0.68,0.6,0.68,0.8661105975616159,0.8195829481712119,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,dropout_burst,2.9000000000000004,0.65,0.66,,0.68,0.8661105975616159,0.8195829481712119,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,dropout_burst,2.95,0.65,0.56,,0.66,0.8661105975616159,0.8145829481712119,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,dropout_burst,3.0,0.65,0.46,0.72,0.56,0.8149718884150503,0.7512289163112877,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,dropout_burst,3.0500000000000003,0.65,0.31,,0.46,0.8149718884150503,0.7262289163112877,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,dropout_burst,3.1,0.65,0.79,,0.46,0.8149718884150503,0.7262289163112877,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,dropout_burst,3.1500000000000004,0.65,0.67,0.8,0.67,0.8097317274697826,0.774798795602337,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,dropout_burst,3.2,0.65,0.56,,0.67,0.8097317274697826,0.774798795602337,STOP,At/below stop boundary; confirmation count 12,False,False,False
+Assistive,dropout_burst,3.25,0.65,0.51,,0.56,0.8097317274697826,0.747298795602337,STOP,At/below stop boundary; confirmation count 13,False,False,False
+Assistive,dropout_burst,3.3000000000000003,0.65,0.7000000000000001,0.74,0.56,0.7853256228553587,0.728994217141519,STOP,At/below stop boundary; confirmation count 14,False,False,False
+Assistive,dropout_burst,3.35,0.65,,,0.56,0.7853256228553587,0.728994217141519,STOP,Both current readings missing,False,False,False
+Assistive,dropout_burst,3.4000000000000004,0.65,0.59,,0.59,0.7853256228553587,0.736494217141519,STOP,At/below stop boundary; confirmation count 1,False,False,False
+Assistive,dropout_burst,3.45,0.65,0.54,0.7000000000000001,0.59,0.7554616548559832,0.7140962411419873,STOP,At/below stop boundary; confirmation count 2,False,False,False
+Assistive,dropout_burst,3.5,0.65,0.66,,0.59,0.7554616548559832,0.7140962411419873,STOP,At/below stop boundary; confirmation count 3,False,False,False
+Assistive,dropout_burst,3.5500000000000003,0.65,0.35000000000000003,,0.54,0.7554616548559832,0.7015962411419874,STOP,At/below stop boundary; confirmation count 4,False,False,False
+Assistive,dropout_burst,3.6,0.65,0.76,0.7000000000000001,0.66,0.736050075656389,0.7170375567422917,STOP,At/below stop boundary; confirmation count 5,False,False,False
+Assistive,dropout_burst,3.6500000000000004,0.65,0.96,,0.76,0.736050075656389,0.7420375567422917,STOP,At/below stop boundary; confirmation count 6,False,False,False
+Assistive,dropout_burst,3.7,0.65,0.53,,0.76,0.736050075656389,0.7420375567422917,STOP,At/below stop boundary; confirmation count 7,False,False,False
+Assistive,dropout_burst,3.75,0.65,0.49,0.64,0.53,0.7024325491766529,0.6593244118824897,STOP,At/below stop boundary; confirmation count 8,False,False,False
+Assistive,dropout_burst,3.8000000000000003,0.65,0.53,,0.53,0.7024325491766529,0.6593244118824897,STOP,At/below stop boundary; confirmation count 9,False,False,False
+Assistive,dropout_burst,3.85,0.65,0.58,,0.53,0.7024325491766529,0.6593244118824897,STOP,At/below stop boundary; confirmation count 10,False,False,False
+Assistive,dropout_burst,3.9000000000000004,0.65,0.55,0.7000000000000001,0.55,0.7015811569648244,0.6636858677236184,STOP,At/below stop boundary; confirmation count 11,False,False,False
+Assistive,dropout_burst,3.95,0.65,0.55,,0.55,0.7015811569648244,0.6636858677236184,STOP,At/below stop boundary; confirmation count 12,False,False,False

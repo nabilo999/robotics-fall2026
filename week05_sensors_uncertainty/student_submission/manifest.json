@@ -1,0 +1,34 @@
+{
+  "files": {
+    "autosave/responses.json": "765865059629262089917bbb43d00b1e3b6caa4608114b04721aa46b87d035f6",
+    "autosave/responses.md": "31f620f9736df9ef9e1d7b3f6c699c18a3177c8b21cfe058e03da9a5838fac5b",
+    "final_reflection.md": "1adc0e38afe3791a6fbce3cb7928c546d91417e21395bd1cf1c8e9fea13864eb",
+    "final_synthesis.md": "4813a725019049d5e84e149053c24137699610500017559d64a23c2d816d2d6a",
+    "mission_1/evidence.png": "77066b35f4b5ad95d72c24eac8ad610c8206a383d623f018e8538aa2ad38ca6e",
+    "mission_1/explanation.md": "05999cf9723abdc84b9c0638585bedc848398f37218f8e8e8811336de9ca27ac",
+    "mission_1/measurements.csv": "dcdea5dfccd65a34b04978e76c5bd34158383b7ced8f3c2b3942a9e691f269ac",
+    "mission_1/submission.json": "04138819249ac8712aa9e1629f55a929fb8eecf7fd6a7c60bee376cfe05b6132",
+    "mission_2/evidence.png": "f4140be0040e7726b8fa46f0522a729d47bc8f864a9f271c9b4f0c4fe01c75a8",
+    "mission_2/explanation.md": "fb1c9ea4d2cdc06632f60892626550ebc6fe8f7ddb27eb9c857404a1d68a878c",
+    "mission_2/measurements.csv": "54ceddead262887bce084f6be8778fc178a9b54cbf0cf2632376e6e2302f2925",
+    "mission_2/submission.json": "cd71219bd06d3258c3086bf76d33192afd5b50ae5de451bf61f100ad52be61b6",
+    "mission_3/explanation.md": "436b02a9055d1fabd571ddc0306e01f1c4c92f83460b6452168af1d7c307587f",
+    "mission_3/measurements.csv": "288b6e4c7f492a19a12a0925f4580cdeb7b4a113f08668ad06aaecc9f9c7d3e9",
+    "mission_3/submission.json": "8f75621b246cc75bd503f832522406411409842ff6bfe6a05a93a60314035ad9",
+    "student.json": "9098071158def979b2f50235d502afb7badbf508379ac0c2cad65187aa7185f7"
+  },
+  "generated_at": "2026-10-06T02:47:24.277279+00:00",
+  "lab_id": "week05_sensors_uncertainty",
+  "mission_signatures": {
+    "mission_1": "04c1ba1d69828f40",
+    "mission_2": "5a0f4abd96d95a06",
+    "mission_3": "8a66fa6b8ffab405"
+  },
+  "response_signature": "92cdd58d4dd4722f",
+  "schema_version": 2,
+  "student": {
+    "course_id": "CSCI 39536 01",
+    "email": "nabil.said54@myhunter.cuny.edu",
+    "name": "Nabil Said"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "artifact_hashes": {
+    "evidence.png": "77066b35f4b5ad95d72c24eac8ad610c8206a383d623f018e8538aa2ad38ca6e",
+    "explanation.md": "05999cf9723abdc84b9c0638585bedc848398f37218f8e8e8811336de9ca27ac",
+    "measurements.csv": "dcdea5dfccd65a34b04978e76c5bd34158383b7ced8f3c2b3942a9e691f269ac"
+  },
+  "evidence": {
+    "metrics": {
+      "bias": 0.009915611814346192,
+      "count": 240,
+      "dropout_count": 3,
+      "mean": 2.009915611814346,
+      "median": 1.99,
+      "outlier_count": 4,
+      "standard_deviation": 0.19190391213450195,
+      "valid_count": 237,
+      "variance": 0.03682711149252665
+    },
+    "profile": "noisy",
+    "seed": 2532376961
+  },
+  "lab_id": "week05_sensors_uncertainty",
+  "mission_id": "mission_1",
+  "saved_at": "2026-10-04T22:43:48.143956+00:00",
+  "schema_version": 2,
+  "state_signature": "04c1ba1d69828f40"
+}
