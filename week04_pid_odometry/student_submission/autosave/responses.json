@@ -1,13 +1,19 @@
 {
-  "schema_version": 1,
-  "saved_at": "2026-09-27T14:55:24",
+  "schema_version": 2,
+  "saved_at": "2026-09-27T15:24:04",
   "identity": {
     "name": "",
     "student_id": "",
     "section": ""
   },
-  "checkins": {},
-  "explanations": {},
+  "checkins": {
+    "m1_prediction": "/"
+  },
+  "explanations": {
+    "mission_1": {
+      "prediction": "/"
+    }
+  },
   "activity_gifs": {
     "mission_1": [
       "latest_arm_tuning.gif"
