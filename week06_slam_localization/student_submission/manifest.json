@@ -1,0 +1,35 @@
+{
+  "files": {
+    "autosave/responses.json": "7e7a79156ab4610deb44ae10ef865e9ac0f9319aa320a5bc0b1e0e7219dceae0",
+    "autosave/responses.md": "afcbcc1647e6ef21e2342972eb39c1d6cd2c9eb0ab9072a91c470df7e82d54d5",
+    "final_reflection.md": "aa41f927c65c811ed0bb3bc14f85b6c351bd5e7164ebd9eaaf1387ddf4a1fe22",
+    "final_synthesis.md": "2ab722d6fbdb247bbff5be3200e83bf14184f0e793ef9cb45405c3cf1c5316e7",
+    "mission_1/analysis.json": "13ba95c4b129e248536910a3c4ea351a4eba7371df9af01d5db3ba32d77c8e47",
+    "mission_1/evidence.json": "1888cad1cc4fda0675b1ba5f6d36b25a4e3b2e9b4c602b01628f411afe85a171",
+    "mission_1/explanation.md": "aa26b1091ec6383e3cb092b83ebfc75252b0f67a0d973757b2e5990acc9ab24e",
+    "mission_1/map.pgm": "20e3ec358a6af7900bb0c436701a96781c1c2df2e83b2fcc29e53cbc369fe7cf",
+    "mission_1/map.yaml": "a598866d333acd001e2a6bfc0699069575e203797027cf7e668b08b5cb5b836c",
+    "mission_1/rviz_screenshot.png": "e6c60bc2270636aad83121022e351ae624c6b68f7e4425cc8f5e7dbf5114354e",
+    "mission_1/submission.json": "6e381e37e0c7e0ec6352ec4f4809864e63bd560964aae92a08d1f161a09c9c78",
+    "mission_2/analysis.json": "dcab6b7accacd6d7f325b088a3bf43100de3db1f125788990e32050b33b137a4",
+    "mission_2/evidence.json": "843a05998a6d478b15c04b018e51cefee375b7af314c04e510b9e3e9166cdfb5",
+    "mission_2/explanation.md": "f81903e0d545e0c097fa756b06511ef88afac3b8c37ee4b7fbd95f3509ef697d",
+    "mission_2/map.pgm": "1a7b2689c63af0f3de8c96979924ee3a22ef6c3ee5e08d7b35c0c45908399103",
+    "mission_2/map.yaml": "40a5bf214693fce5ec586f432aeb98b28b7a31421a3927c33a8981cceaafd772",
+    "mission_2/rviz_screenshot.png": "027987a8acc0be038d3995640cc74950dd4ccce29b0578bef95eb0d58456a699",
+    "mission_2/submission.json": "ed71404418f8799f65e46507fbf380b0848b0b8c53ae12be467e49301ec608c3",
+    "student.json": "8c5b4ab4e46fdd9db3e23db9125d756e9c2f31e58f96386d484e1a23ed72afac"
+  },
+  "generated_at": "2026-10-20T17:16:27.043082+00:00",
+  "lab_id": "week06_slam_localization",
+  "mission_signatures": {
+    "mission_1": "5bb7e124d98624a5",
+    "mission_2": "aa5f21eec29e3836"
+  },
+  "response_signature": "c574c8a12d8b23f0",
+  "schema_version": 2,
+  "student": {
+    "email": "NABIL.SAID54@login.cuny.edu",
+    "name": "Nabil Said"
+  }
+}

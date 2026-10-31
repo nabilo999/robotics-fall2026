@@ -1,0 +1,159 @@
+{
+  "checked_evidence_ids": {
+    "mission_1": "5bb7e124d98624a5",
+    "mission_2": "aa5f21eec29e3836"
+  },
+  "completed_missions": [
+    "mission_1",
+    "mission_2"
+  ],
+  "content_version": 5,
+  "evidence": {
+    "mission_1": {
+      "captured_at": "2026-10-19T16:14:37.173943+00:00",
+      "duration_minutes": 7.0,
+      "map_image": "map.pgm",
+      "map_yaml": "map.yaml",
+      "metrics": {
+        "border_contact_fraction": 0.06367924528301887,
+        "free_fraction": 0.45002567365436563,
+        "height": 189,
+        "known_fraction": 0.49146071930882057,
+        "largest_component_cells": 488,
+        "map_area_m2": 111.98250000000002,
+        "occupied_components": 185,
+        "occupied_fraction": 0.04143504565445494,
+        "resolution": 0.05,
+        "speckle_fraction": 0.1136853448275862,
+        "unknown_fraction": 0.5085392806911794,
+        "width": 237
+      },
+      "quality_score": 63.0,
+      "schema_version": 1,
+      "strategy": "perimeter_then_interior",
+      "world_id": "turtlebot3_house"
+    },
+    "mission_2": {
+      "captured_at": "2026-10-20T03:40:32.386356+00:00",
+      "duration_minutes": 7.0,
+      "map_image": "map.pgm",
+      "map_yaml": "map.yaml",
+      "metrics": {
+        "border_contact_fraction": 0.0,
+        "free_fraction": 0.06766917293233082,
+        "height": 38,
+        "known_fraction": 0.06766917293233082,
+        "largest_component_cells": 0,
+        "map_area_m2": 11.305000000000001,
+        "occupied_components": 0,
+        "occupied_fraction": 0.0,
+        "resolution": 0.05,
+        "speckle_fraction": 0.0,
+        "unknown_fraction": 0.9323308270676691,
+        "width": 119
+      },
+      "quality_score": 51.8,
+      "schema_version": 1,
+      "strategy": "going_right_first",
+      "world_id": "turtlebot3_house"
+    },
+    "preflight": {
+      "captured_at": "2026-10-19T14:36:00.168968+00:00",
+      "checks": [
+        {
+          "check": "ROS distribution",
+          "detail": "jazzy",
+          "passed": true
+        },
+        {
+          "check": "ros2 command",
+          "detail": "/opt/ros/jazzy/bin/ros2",
+          "passed": true
+        },
+        {
+          "check": "ROS_DOMAIN_ID",
+          "detail": "26 (expected 26 for course launcher)",
+          "passed": true
+        },
+        {
+          "check": "RViz command",
+          "detail": "/opt/ros/jazzy/bin/rviz2",
+          "passed": true
+        },
+        {
+          "check": "Package: turtlebot3_gazebo",
+          "detail": "turtlebot3_gazebo",
+          "passed": true
+        },
+        {
+          "check": "Package: turtlebot3_teleop",
+          "detail": "turtlebot3_teleop",
+          "passed": true
+        },
+        {
+          "check": "Package: slam_toolbox",
+          "detail": "slam_toolbox",
+          "passed": true
+        },
+        {
+          "check": "Package: nav2_map_server",
+          "detail": "nav2_map_server",
+          "passed": true
+        },
+        {
+          "check": "Package: course_slam_tools",
+          "detail": "course_slam_tools",
+          "passed": true
+        }
+      ],
+      "ready": true,
+      "run_id": "1792418773300662588-15",
+      "schema_version": 2
+    }
+  },
+  "lab_id": "week06_slam_localization",
+  "prediction_locks": {
+    "mission_1.route": {
+      "context_signature": "09ef949f5d712b72",
+      "text": "I would move straight. I would turn left. I would turn left again. I would keep going straight. I would turn right to see the entire room. Then I would go to the middle of the room, going straight, and then I would turn left. Then I would go ahead until I'm in the middle of the next room. I would look left and then right. Then I would continue moving forward to the right. I would go to the end of the room, and then I would turn around. Then I would go straight, go straight, and then I would turn right. And then I would turn right again, and then I would go straight ahead. Just before I hit the wall, I would turn left 90 degrees, and all these turns are 90 degrees. I would go ahead, go straight, and then I would turn left and go straight, and then I would turn another left and go straight, and then I would turn another left and go straight. Then I would turn right, and then go straight, and then turn another way, and then go straight, and then go straight, and then turn right, and then go straight, go straight, go straight, and then I would be in the last room. Then I would turn around just to map it fully.\n\nThis should give us full coverage of all the rooms because we pass fully through them and we made sure to cover everything. The only thing that we would have to worry about is how far the LiDAR can see. If the LiDAR can see far enough into the room, like a longer distance, then we should have full coverage. Otherwise, we might have some issues."
+    },
+    "mission_2.strategy": {
+      "context_signature": "8e1300a855353852",
+      "text": "I will go ahead and go through the door. This time, I will go towards the right. I will explore the room on the bottom first. I will leave that room, and then I will go up to the room on the bottom right. After that, I will go back through the hallway towards the left of the door entrance. I will try to pass under the table, and then I will go into the last room."
+    }
+  },
+  "responses": {
+    "final.course_reflection": "It was cool seeing the difference between how I saw the world while moving through it and how the robot saw it. Some things were clear to me, like where a room started or what was behind a table, but in the robot's view they looked completely different or were missing. It made me realize how much information I take for granted and how much the robot depends on what it can actually scan.",
+    "final.synthesis": "From my two maps, the robot can estimate where walls, obstacles, and open space are in the areas its LiDAR scanned. It cannot assume it knows the full layout of the house if it never scanned parts of it. Unknown space may mean there is a wall or that it is safe to drive through.\n\nMy first route covered more of the house but that is due to issues I had with my second run. My original plan of one route from the left and one route starting from the right wouldn't have made a big difference. A better comparison would have been going into the rooms verses just looking through the doors. The first map would have showed recognizable walls and rooms, while the second would have barely showed any useful info inside of the rooms.&#x20;\n\nEven then, with both runs I would've missed spots around the table and two rooms after the robot bumped into a wall and got stuck. Furniture can block the LiDAR, so just scanning from a doorway is not enough.\n\nThe robot\u2019s motion estimate can also build up error, which could make walls appear shifted or doubled. Revisiting an area can help SLAM correct that, but that takes time and many runs to make sure everything is correct.\n\nI would trust the first map more for a later task because it has more visible structure and coverage. Still, I would want to finish scanning the missing rooms and check the rough edges before relying on it for navigation.\n",
+    "mission_1.drift_and_revisit": "When I returned to an area I had already scanned, I didn't really notice any major changes in the walls. I couldn't tell if the walls shifted or doubled because I wasn't paying too much attention to that. ",
+    "mission_1.limitations": "It missed a couple of spots under the table. I think that is because of the lighting or because of how it went around the table, and the legs kind of blocked some of the way. Also, I couldn't finish mapping out the room because the robot got stuck and couldn't move any further. I bumped into a wall by accident, and then the robot kind of did something weird where it couldn't progress correctly, so I couldn't finish mapping out the two rooms left.",
+    "mission_1.route.original_prediction": "I would move straight. I would turn left. I would turn left again. I would keep going straight. I would turn right to see the entire room. Then I would go to the middle of the room, going straight, and then I would turn left. Then I would go ahead until I'm in the middle of the next room. I would look left and then right. Then I would continue moving forward to the right. I would go to the end of the room, and then I would turn around. Then I would go straight, go straight, and then I would turn right. And then I would turn right again, and then I would go straight ahead. Just before I hit the wall, I would turn left 90 degrees, and all these turns are 90 degrees. I would go ahead, go straight, and then I would turn left and go straight, and then I would turn another left and go straight, and then I would turn another left and go straight. Then I would turn right, and then go straight, and then turn another way, and then go straight, and then go straight, and then turn right, and then go straight, go straight, go straight, and then I would be in the last room. Then I would turn around just to map it fully.\n\nThis should give us full coverage of all the rooms because we pass fully through them and we made sure to cover everything. The only thing that we would have to worry about is how far the LiDAR can see. If the LiDAR can see far enough into the room, like a longer distance, then we should have full coverage. Otherwise, we might have some issues.",
+    "mission_1.route.prediction_draft": "I would move straight. I would turn left. I would turn left again. I would keep going straight. I would turn right to see the entire room. Then I would go to the middle of the room, going straight, and then I would turn left. Then I would go ahead until I'm in the middle of the next room. I would look left and then right. Then I would continue moving forward to the right. I would go to the end of the room, and then I would turn around. Then I would go straight, go straight, and then I would turn right. And then I would turn right again, and then I would go straight ahead. Just before I hit the wall, I would turn left 90 degrees, and all these turns are 90 degrees. I would go ahead, go straight, and then I would turn left and go straight, and then I would turn another left and go straight, and then I would turn another left and go straight. Then I would turn right, and then go straight, and then turn another way, and then go straight, and then go straight, and then turn right, and then go straight, go straight, go straight, and then I would be in the last room. Then I would turn around just to map it fully.\n\nThis should give us full coverage of all the rooms because we pass fully through them and we made sure to cover everything. The only thing that we would have to worry about is how far the LiDAR can see. If the LiDAR can see far enough into the room, like a longer distance, then we should have full coverage. Otherwise, we might have some issues.",
+    "mission_2.comparison": "I had an issue with rerunning the simulation where the robot couldnt connect to the keyboard so the courage of the first run was better but if I were to compare the coverage would have probably been the same starting from the left or right and in bothe you would have to go inside the rooms to scan everything and due to obstructions inside the rooms you cant just scanat the door frame",
+    "mission_2.map_choice": "the first but ideally there wouldnt be the big of a diffrence if, scaning room be room is not time efficient but is the most accurate. we are comparing between detail and  speed.",
+    "mission_2.strategy.original_prediction": "I will go ahead and go through the door. This time, I will go towards the right. I will explore the room on the bottom first. I will leave that room, and then I will go up to the room on the bottom right. After that, I will go back through the hallway towards the left of the door entrance. I will try to pass under the table, and then I will go into the last room.",
+    "mission_2.strategy.prediction_draft": "I will go ahead and go through the door. This time, I will go towards the right. I will explore the room on the bottom first. I will leave that room, and then I will go up to the room on the bottom right. After that, I will go back through the hallway towards the left of the door entrance. I will try to pass under the table, and then I will go into the last room."
+  },
+  "schema_version": 2,
+  "stage": "final",
+  "student": {
+    "email": "NABIL.SAID54@login.cuny.edu",
+    "name": "Nabil Said"
+  },
+  "tutorial_complete": {
+    "tutorial_1": true,
+    "tutorial_2": true,
+    "tutorial_3": true
+  },
+  "updated_at": "2026-10-20T17:16:22.276041+00:00",
+  "visited_stages": [
+    "intro",
+    "tutorial_1",
+    "tutorial_2",
+    "preflight",
+    "tutorial_3",
+    "mission_1",
+    "mission_2",
+    "final"
+  ]
+}
