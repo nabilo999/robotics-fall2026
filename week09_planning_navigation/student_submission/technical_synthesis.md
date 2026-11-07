@@ -1,0 +1,2 @@
+A good route should be reasonable for the planner to find, practical for the robot to follow, and give people enough space. In Mission 1, A* found a 13.5 m route on the open map while examining fewer cells than BFS. In Mission 2, A* reached the goal on both maps, while DFS timed out on both after following much longer routes.
+In Mission 3, A* with the stronger social field increased the estimated minimum clearance from 0.725 m to 0.841 m and spent less time close to the person while the RRT already left more space. 
