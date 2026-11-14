@@ -1,0 +1,74 @@
+{
+  "stage": "final_submission",
+  "responses": {
+    "m1_analysis": "the improved request specified the starting point, destination, object, and the robot\u2019s limitations. However, the model repeated my request word for word. It avoided a clear answer just copying the instructions does not demonstrate understanding. ",
+    "m2_analysis": "I chose Identify and asked the model to support its answer with visible features and acknowledge uncertainty. The original answer incorrectly guessed tape measure. My revised request produced another incorrect identification scissors. It also invented details, including a threaded hole for attaching the tool to a belt or strap. The revised answer was a little better because I think scissors are closer to a compass than a tape measure but it was still wrong.",
+    "m3_analysis": "My revised prompt used a short decision table based on the robot\u2019s current coordinates. However, the model repeatedly chose UP, hit the upper wall, moved DOWN, and returned UP. It never followed the instruction to turn RIGHT at row 1. The run had 35 successful moves, 15 blocked moves, no STOP actions, and ended at (1,2) without reaching the goal. The second supplied prompt made more progress, reaching (7,1). Although my route instructions were feasible, the model did not consistently apply them. ",
+    "final_synthesis": "The biggest thing I noticed across all three missions was no matter how much info I gave the robot it could still be wrong. Giving the model more information sometimes helped, but it did not guarantee a better result.\n\nIn Mission 1, the model said the cup was empty even though it had no observation showing that. For the unclear request, it gave a vague answer instead of asking which object or location I meant. When I made my request more specific, it just repeated my instructions back to me. The wording was clearer, but the answer was not more useful. In Mission 2, the model called the drawing compass a tape measure. After I asked it to explain the visible features, it called it scissors and added details that were not supported by the picture. It did correctly place the black post to the right of the tool, so some claims matched the image while others did not. In Mission 3, none of the prompts reached the target. My decision-table prompt still produced repeated UP moves and ended at (1,2), with 15 blocked moves. \nOverall, I learned to compare the model\u2019s answer with the actual evidence and results instead of trusting how convincing it sounds.",
+    "final.course_reflection": "Honestly, what stood out most was how much trial and error this involved. I expected clearer instructions to make a bigger difference, so it was frustrating when the model still guessed wrong or kept moving into the same wall. A longer answer is not automatically a better answer, and giving a robot instructions does not mean it will follow them correctly."
+  },
+  "student": {
+    "name": "Nabil Said",
+    "email": "NABIL.SAID54@login.cuny.edu"
+  },
+  "tutorial_step": 5,
+  "tutorial_reviewed": 6,
+  "controls": {
+    "control_ground_instruction": "Point to the blue cup",
+    "control_demo_step": 3,
+    "control_adapt_choice": "Full fine-tuning",
+    "control_adapt_scenario": "The new robot has a different gripper interface",
+    "control_adapt_instruction": "Move the blue cup to the tray",
+    "control_adapt_records": 4,
+    "control_chunk_size": 6,
+    "control_movement_angle": 0,
+    "control_movement_token": 0,
+    "control_chunk_hz": 5,
+    "control_validate_case": "Navigate to the shelf",
+    "control_validate_conf_navigate": 0.4,
+    "control_validate_age_navigate": 26.3,
+    "control_live_language_runs": [
+      "af9f43a5f48e46de8d06a1b5968e2f65",
+      "5546d730b0434fa583eee6a5a8c39b1a",
+      "19178068cfec44be89b5ff28dec813e5",
+      "f6f893050e69469fb2fef30e6fb70e1e"
+    ],
+    "control_live_language_active": "f6f893050e69469fb2fef30e6fb70e1e",
+    "control_live_language_custom_prompt": "Starting at base, navigate to the shelf and inspect the cup using your camera. Report only what you can observe, without assuming the cup is empty. If you cannot determine something, say so. Leave the cup on the shelf because you have no arm or gripper.",
+    "control_live_vision_active": "905827473ed24c51b7e67292585becc4",
+    "control_live_vision_runs": [
+      "2b9d478c59b74079a4a0f8ee68b170b0",
+      "ccd0a0cfbeb7460080f40c1358ce8957",
+      "f821d1867e544e2dac463d39e9835090",
+      "905827473ed24c51b7e67292585becc4"
+    ],
+    "control_live_vision_custom_prompt": "Task: Identify. My goal is to identify the metal tool in the foreground of the workbench. Look closely at its shape. Name the tool and explain which visible features support your identification. Separate what you can actually see from assumptions about its function. If its identity is unclear, explain your uncertainty rather than guessing.",
+    "control_robot_runs": [
+      "f8670173bd0243838a58d9a8e60c9990",
+      "d98f4260f87f4299be978ce34f79b614",
+      "72dea623bd83400183eae156ed026e84",
+      "1429d025dfb94d72bec70af9be56bccb",
+      "1836c33b965f485ab21624797b89038e",
+      "32ee4c2d3f5741c0af7954ed6cf3b475",
+      "951bbd9b67af4332b909748a6782aecc"
+    ],
+    "control_robot_active": "951bbd9b67af4332b909748a6782aecc",
+    "control_robot_custom_prompt": "Use your CURRENT position. Follow the FIRST matching rule:\n\nAt (11,1): STOP.\nColumn 11: UP.\nColumns 7\u201310, row below 7: DOWN.\nColumns 7\u201310, row 7: RIGHT.\nRow 1: RIGHT.\nOtherwise: UP.\n\u201cBelow 7\u201d means row number less than 7.\nOutput only the action."
+  },
+  "guided_version": 4,
+  "guided_seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "response_widgets": [
+    "m1_analysis",
+    "m2_analysis",
+    "m3_analysis",
+    "final_synthesis"
+  ],
+  "version": 2
+}

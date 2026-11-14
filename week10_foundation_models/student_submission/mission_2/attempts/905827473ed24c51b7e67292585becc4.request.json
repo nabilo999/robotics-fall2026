@@ -1,0 +1,14 @@
+{
+  "job_id": "905827473ed24c51b7e67292585becc4",
+  "kind": "vision",
+  "case": "custom",
+  "prompt": "Task: Identify. My goal is to identify the metal tool in the foreground of the workbench. Look closely at its shape. Name the tool and explain which visible features support your identification. Separate what you can actually see from assumptions about its function. If its identity is unclear, explain your uncertainty rather than guessing.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-14T03:16:26.977027+00:00",
+  "comparison_ids": [
+    "2b9d478c59b74079a4a0f8ee68b170b0",
+    "ccd0a0cfbeb7460080f40c1358ce8957",
+    "f821d1867e544e2dac463d39e9835090"
+  ]
+}

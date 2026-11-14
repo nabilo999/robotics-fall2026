@@ -1,0 +1,29 @@
+{
+  "job_id": "32ee4c2d3f5741c0af7954ed6cf3b475",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Reach the blue target at column 11, row 1. Before every action, check your current column and row and apply these rules:\n- If you are at (11,1), choose STOP and keep choosing STOP.\n- If your column is less than 7: choose UP while your row is greater than 1; once your row is 1, choose RIGHT.\n- If your column is 7 through 10: choose DOWN while your row is less than 7; once your row is 7, choose RIGHT.\n- If your column is 11 and your row is greater than 1, choose UP.\nCheck that the next cell is free. Reevaluate these rules after every step. Reply with exactly one action: UP, DOWN, LEFT, RIGHT, or STOP.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-14T04:10:09.531744+00:00",
+  "comparison_ids": [
+    "1836c33b965f485ab21624797b89038e",
+    "72dea623bd83400183eae156ed026e84",
+    "1429d025dfb94d72bec70af9be56bccb"
+  ],
+  "task": "robot",
+  "robot_state": {
+    "position": [
+      1,
+      7
+    ],
+    "step": 0,
+    "history": [],
+    "finished": false,
+    "goal_reached": false,
+    "first_goal_step": null,
+    "last_feedback": "No previous action.",
+    "last_decision": null
+  },
+  "simulator_contract": "8da30a943bd97ee39237aa05e8e6800fecdecbef3ce692d7d4e48f851679060f"
+}
