@@ -1,0 +1,1 @@
+Honestly, what stood out most was how much trial and error this involved. I expected clearer instructions to make a bigger difference, so it was frustrating when the model still guessed wrong or kept moving into the same wall. A longer answer is not automatically a better answer, and giving a robot instructions does not mean it will follow them correctly.

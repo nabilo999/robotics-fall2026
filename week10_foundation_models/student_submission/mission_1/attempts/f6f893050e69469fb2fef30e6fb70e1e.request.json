@@ -1,0 +1,14 @@
+{
+  "job_id": "f6f893050e69469fb2fef30e6fb70e1e",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Starting at base, navigate to the shelf and inspect the cup using your camera. Report only what you can observe, without assuming the cup is empty. If you cannot determine something, say so. Leave the cup on the shelf because you have no arm or gripper.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-14T02:58:47.969639+00:00",
+  "comparison_ids": [
+    "af9f43a5f48e46de8d06a1b5968e2f65",
+    "5546d730b0434fa583eee6a5a8c39b1a",
+    "19178068cfec44be89b5ff28dec813e5"
+  ]
+}

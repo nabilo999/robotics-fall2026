@@ -1,0 +1,1 @@
+the improved request specified the starting point, destination, object, and the robot’s limitations. However, the model repeated my request word for word. It avoided a clear answer just copying the instructions does not demonstrate understanding. 

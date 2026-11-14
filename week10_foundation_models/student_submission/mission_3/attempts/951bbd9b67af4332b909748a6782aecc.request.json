@@ -1,0 +1,29 @@
+{
+  "job_id": "951bbd9b67af4332b909748a6782aecc",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Use your CURRENT position. Follow the FIRST matching rule:\n\nAt (11,1): STOP.\nColumn 11: UP.\nColumns 7\u201310, row below 7: DOWN.\nColumns 7\u201310, row 7: RIGHT.\nRow 1: RIGHT.\nOtherwise: UP.\n\u201cBelow 7\u201d means row number less than 7.\nOutput only the action.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-14T04:18:22.757783+00:00",
+  "comparison_ids": [
+    "1836c33b965f485ab21624797b89038e",
+    "72dea623bd83400183eae156ed026e84",
+    "1429d025dfb94d72bec70af9be56bccb"
+  ],
+  "task": "robot",
+  "robot_state": {
+    "position": [
+      1,
+      7
+    ],
+    "step": 0,
+    "history": [],
+    "finished": false,
+    "goal_reached": false,
+    "first_goal_step": null,
+    "last_feedback": "No previous action.",
+    "last_decision": null
+  },
+  "simulator_contract": "8da30a943bd97ee39237aa05e8e6800fecdecbef3ce692d7d4e48f851679060f"
+}
