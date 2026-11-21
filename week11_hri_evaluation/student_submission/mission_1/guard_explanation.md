@@ -1,0 +1,1 @@
+In Early and missing readiness, the READY event arrives during EXECUTING. The controller returns hold and stays in EXECUTING. The release guard requires both WAIT_READY and READY, so the cup stays held when a later TICK arrives during the offer.

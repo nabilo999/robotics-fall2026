@@ -1,0 +1,1 @@
+What stood out was saying “Ready” and having the robot hear “not ready.” It was frustrating, but I was glad it waited. I think it’s important for people to be able to correct or stop a robot easily. If I worked on something like this again, I’d want to make the voice controls easier to use.

@@ -1,0 +1,6 @@
+{
+  "case": "clear",
+  "phase": "CONFIRM",
+  "message": "I heard {target}. Check that this is the cup you want. Say Confirm, then select Apply recognized permission. I will wait for your approval before moving.",
+  "rationale": "In the Clear request baseline, “The blue cup” put the robot in CONFIRM. The feedback asked me to say confirm, but the trace shows that spoken Confirm only triggered REVIEW. The robot began moving after I applied permission. The revised message tells the person to check the selected color and explains both steps before the robot moves."
+}

@@ -104,7 +104,9 @@ class Probe(Node):
             follow = ActionClient(self,FollowPath,'/follow_path')
             if not compute.wait_for_server(timeout_sec=75) or not follow.wait_for_server(timeout_sec=30):
                 raise RuntimeError('Nav2 actions are unavailable. Inspect launch.log before counting this as a planner outcome.')
-            deadline = time.monotonic()+30
+            # On software-rendered desktops the first lidar frame can arrive
+            # well after the Nav2 actions appear. This bounds startup only.
+            deadline = time.monotonic()+120
             self.progress('Waiting for map-frame robot position and lidar')
             while time.monotonic()<deadline and (not self.samples or not self.last_scan_wall):
                 rclpy.spin_once(self,timeout_sec=.1)

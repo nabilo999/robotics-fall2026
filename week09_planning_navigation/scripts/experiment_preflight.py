@@ -4,8 +4,9 @@ import json
 import os
 from pathlib import Path
 import shutil
-import subprocess
 import time
+
+from ament_index_python.packages import PackageNotFoundError, get_package_prefix
 
 ROOT = Path(__file__).resolve().parents[1]
 checks = {'ros_distro_jazzy':os.environ.get('ROS_DISTRO')=='jazzy',
@@ -16,11 +17,16 @@ checks = {'ros_distro_jazzy':os.environ.get('ROS_DISTRO')=='jazzy',
 for package in ('nav2_bringup','nav2_smac_planner','nav2_regulated_pure_pursuit_controller',
                 'nav2_controller','nav2_planner','nav2_velocity_smoother','nav2_collision_monitor',
                 'nav2_lifecycle_manager','turtlebot3_gazebo','week09_nav_tools'):
-    result = subprocess.run(['ros2','pkg','prefix',package],capture_output=True,text=True,timeout=10)
-    checks[package] = result.returncode==0
+    # Query the same package index as `ros2 pkg prefix` without starting a
+    # separate CLI process for each package (which can time out under load).
+    try:
+        prefix = Path(get_package_prefix(package))
+    except PackageNotFoundError:
+        prefix = None
+    checks[package] = prefix is not None
     if package=='nav2_controller':
-        manifest = Path(result.stdout.strip())/'share/nav2_controller/plugins.xml'
-        checks['position_goal_checker'] = result.returncode==0 and manifest.is_file() and 'nav2_controller::PositionGoalChecker' in manifest.read_text()
+        manifest = prefix/'share/nav2_controller/plugins.xml' if prefix is not None else None
+        checks['position_goal_checker'] = manifest is not None and manifest.is_file() and 'nav2_controller::PositionGoalChecker' in manifest.read_text()
 document = dict(schema=2,checked_unix=time.time(),checks=checks,ready=all(checks.values()),
                 note='Software readiness only. Each robot trial separately checks actions, transforms and live lidar.')
 target = ROOT/'runtime/preflight.json'
